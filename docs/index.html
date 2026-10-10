@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#142f36"><meta name="description" content="Explore historical resaca boundary delineation datasets and research stages on a live interactive map.">
+<title>Resaca Boundary Research | Interactive Map</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<style>
+:root{color-scheme:light;--ink:#152d36;--muted:#60737a;--line:#d8e4e5;--accent:#087e82;--surface:#fff;--background:#f5f8f7}
+*{box-sizing:border-box}html,body{height:100%;margin:0;font:14px/1.45 system-ui,-apple-system,Segoe UI,sans-serif;color:var(--ink)}
+header{height:70px;display:flex;align-items:center;justify-content:space-between;background:#142f36;color:white;padding:10px 20px;gap:10px}
+header .heading{display:flex;align-items:center;gap:11px}header h1{font-size:18px;line-height:1.15;margin:0;font-weight:750}
+header p{margin:2px 0 0;color:#c0d7da;font-size:12px}header a{color:#c9f1ee}
+button,select,input{font:inherit}button{border:1px solid #ccd9d9;background:white;color:#193740;border-radius:8px;cursor:pointer;padding:8px 12px}button:hover{background:#eaf5f4}button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #68c4ce;outline-offset:2px}
+button.primary{background:#087b83;color:white;border-color:#087b83}button.primary:hover{background:#066972}
+#layout{display:grid;grid-template-columns:360px minmax(0,1fr);height:calc(100% - 70px)}aside{border-right:1px solid var(--line);overflow:auto;background:#fff;padding:15px}main{position:relative;min-width:0}#map{height:100%;background:#e4eef1}
+.controls{display:flex;flex-wrap:wrap;gap:7px;margin:11px 0}.intro{font-size:13px;color:var(--muted);margin:5px 0 12px}
+#search{width:100%;padding:10px;border:1px solid var(--line);border-radius:8px;margin-bottom:10px}
+#list{display:flex;flex-direction:column;gap:14px}.group{border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--surface)}
+.group summary{padding:11px;background:#f7faf9;cursor:pointer;font-weight:700;display:flex;justify-content:space-between;gap:6px;list-style:none}
+.group summary::before{content:"▸";padding-right:7px;color:var(--accent)}.group[open] summary::before{content:"▾"}
+.group summary span:first-child{flex:1}.group summary em{font-size:12px;font-weight:500;color:var(--muted);font-style:normal}
+.items{padding:5px 9px 9px}.dataset{display:flex;align-items:flex-start;gap:8px;padding:8px 4px;border-bottom:1px solid #f0f3f3}.dataset:last-child{border:0}
+.dataset label{display:flex;gap:8px;cursor:pointer;flex:1;min-width:0;align-items:flex-start}.dataset input{margin:4px 0 0;accent-color:var(--accent)}.swatch{height:12px;width:12px;border-radius:3px;border:1px solid #0002;margin:4px 0 0;flex:none}
+.dataset strong{font-size:12.5px;display:block;overflow-wrap:anywhere;line-height:1.3}.dataset small{font-size:11px;color:var(--muted)}
+.dataset button{font-size:12px;padding:3px 6px;align-self:center}.dataset.busy{opacity:.6}
+#status{position:absolute;left:12px;bottom:15px;z-index:500;background:white;border-radius:9px;padding:7px 11px;box-shadow:0 2px 12px #142f3630;max-width:min(580px,calc(100% - 24px));font-size:12px}
+#basemap{background:white;border:1px solid var(--line);padding:8px;border-radius:8px}
+.bubble{font-size:12px;min-width:215px}.bubble h3{margin:0 0 6px;font-size:15px}.bubble dt{font-weight:600}.bubble dd{margin:0 0 4px;overflow-wrap:anywhere}.bubble .note{background:#f4f7f7;border-left:3px solid #0e8189;padding:5px 7px;margin-top:8px;color:#445d65}.bubble a{color:#006b72}
+#mobileMenu{display:none}.footnote{font-size:11px;color:#687c83;padding-top:10px}.demcontrol{padding:12px 11px;margin:6px 0 16px;border:1px solid #c5d9da;background:#f7fbfb;border-radius:10px}.demcontrol label{display:flex;gap:7px;align-items:center}.demcontrol label small{margin-left:auto;color:#6a7e85;font-size:10px}.demcontrol input[type=checkbox]{accent-color:#087b83}.demopacity{display:flex;gap:9px;align-items:center;margin-top:9px;font-size:11px}.demopacity input{flex:1;min-width:50px;accent-color:#087b83}.demopacity output{min-width:33px;text-align:right}.demlegend{display:flex;flex-direction:column;margin-top:6px;gap:2px;font-size:10px;color:#637d83}.demlegend .colorbar{height:9px;border-radius:3px;background:linear-gradient(to right,#16385b,#2d7f96,#6ab5b2,#e5e7cc,#dca55a,#a65d32,#643a21)}
+@media(max-width:780px){header{height:65px;padding:8px 12px}header h1{font-size:15px}header p{font-size:11px}#mobileMenu{display:inline-block}#layout{height:calc(100% - 65px);display:block;position:relative}aside{position:absolute;z-index:650;top:0;bottom:0;width:min(340px,95vw);box-shadow:3px 0 10px #142f3625;transition:transform .2s}aside.hidden{transform:translateX(-110%)}main{height:100%}#status{bottom:17px}}
+</style></head>
+<body>
+<header><div class="heading"><button id="mobileMenu" aria-label="Toggle dataset layers">☰ Layers</button><div><h1>Resaca Boundary Research</h1><p>Interactive polygon archive · experimental data, not a definitive accuracy map</p></div></div><a id="repo" href="https://github.com/BridgettC/Resaca-Model-Map" target="_blank" rel="noopener">Project &amp; methods ↗</a></header>
+<div id="layout"><aside id="sidebar">
+<p class="intro">Compare rough outlines, model-generated predictions, and human-edited boundaries across research stages. The map loads selected layers only.</p>
+<div class="controls"><button class="primary" id="finalOnly">Show final 914</button><button id="none">Clear polygon layers</button></div>
+<section class="demcontrol" aria-label="Digital elevation model overlay"><label><input type="checkbox" checked id="showDem"> <strong>Detrended DEM</strong> <small>5 m original, optimized for web display</small></label><div class="demopacity"><span>DEM opacity</span><input type="range" id="demOpacity" min="0" max="100" value="65" aria-label="DEM opacity"><output id="opacityLabel">65%</output></div><div class="demlegend"><span>Low elevation / depression</span><div class="colorbar"></div><span>Higher terrain</span></div></section>
+<label for="search" style="font-weight:700;font-size:13px">Find a layer</label>
+<input id="search" type="search" placeholder="Search: 89, RLHF, rough, final…" aria-label="Search layer names">
+<div id="list"><p>Reading data catalog…</p></div>
+<p class="footnote">Only display-optimized copies are loaded. Complete unmodified polygon datasets and provenance notes are preserved in the repository. Counts are experimental cohorts, not additive population totals.</p>
+</aside><main>
+<div id="map" role="application" aria-label="Interactive resaca polygon map"></div>
+<div id="status" aria-live="polite">Loading map…</div>
+</main></div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/pako@2.1.0/dist/pako.min.js"></script>
+<script>
+(function(){
+"use strict";
+const status=document.getElementById("status"), sidebar=document.getElementById("sidebar"),list=document.getElementById("list");
+const map=L.map("map",{preferCanvas:true,zoomControl:true,worldCopyJump:false}).setView([26.15,-97.60],11);
+const osm=L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:19,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'});
+const satellite=L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",{maxZoom:19,attribution:"Tiles &copy; Esri — Esri, Maxar, Earthstar Geographics, and the GIS User Community"});
+osm.addTo(map);
+L.control.layers({"Street map":osm,"Satellite imagery":satellite},null,{collapsed:false,position:"topright"}).addTo(map);
+L.control.scale({imperial:false}).addTo(map);
+const definitions=new Map(),active=new Map(),pending=new Map();
+map.createPane("demPane");map.getPane("demPane").style.zIndex=345;map.getPane("demPane").style.pointerEvents="none";let demOverlay=null;
+let currentCatalog=[];
+function setStatus(message){status.textContent=message}
+function titleOf(item){return item.name.replace(/([A-Za-z])([0-9])/g,"$1 $2")}
+function popup(item,props){
+ const wrap=document.createElement("div");wrap.className="bubble";
+ const h=document.createElement("h3");h.textContent=titleOf(item);wrap.appendChild(h);
+ const subtitle=document.createElement("p");subtitle.textContent=item.group+" · "+item.kind;wrap.appendChild(subtitle);
+ const dl=document.createElement("dl");
+ Object.entries(props||{}).forEach(function(kv){const dt=document.createElement("dt"),dd=document.createElement("dd");dt.textContent=kv[0];dd.textContent=String(kv[1]);dl.append(dt,dd)});
+ wrap.appendChild(dl);
+ const caveat=document.createElement("div");caveat.className="note";caveat.textContent=item.caveat;wrap.appendChild(caveat);
+ const source=document.createElement("p");source.className="note";source.textContent="Historical source: "+item.source+" (private archive)";wrap.appendChild(source);const link=document.createElement("a");link.href=item.file;link.textContent="Download optimized display layer (GeoJSON gzip)";link.setAttribute("download","");wrap.appendChild(link);
+ return wrap;
+}
+async function loadDEM(){
+ try{const r=await fetch("dem/metadata.json",{cache:"force-cache"});if(!r.ok)throw Error("DEM metadata HTTP "+r.status);const info=await r.json();const b=info.bounds_latlon;
+ demOverlay=L.imageOverlay("dem/detrended_dem_overview.png",[[b[0],b[1]],[b[2],b[3]]],{pane:"demPane",opacity:.65,interactive:false});
+ if(document.getElementById("showDem").checked)demOverlay.addTo(map);
+ }catch(e){console.error(e);document.getElementById("showDem").checked=false;setStatus("DEM unavailable: "+e.message)}
+}
+async function decodeGeoJSON(url){
+ const resp=await fetch(url,{cache:"force-cache"});
+ if(!resp.ok)throw new Error("HTTP "+resp.status+" loading "+url);
+ const bytes=await resp.arrayBuffer();
+ if(typeof DecompressionStream!=="undefined"){
+   try{const stream=new Blob([bytes]).stream().pipeThrough(new DecompressionStream("gzip"));return await new Response(stream).json()}catch(e){/* try pako below */}
+ }
+ if(window.pako){const raw=window.pako.ungzip(new Uint8Array(bytes),{to:"string"});return JSON.parse(raw)}
+ throw new Error("This browser cannot decode gzip data");
+}
+function setCheckbox(id,checked,busy){
+ const e=document.querySelector('[data-layer="'+id+'"]');
+ if(!e)return;
+ const input=e.querySelector('input');input.checked=checked; input.disabled=!!busy;
+ e.classList.toggle("busy",!!busy);
+}
+async function show(item,fit){
+ if(active.has(item.id)){if(fit)zoom(item);return}
+ if(pending.has(item.id)){await pending.get(item.id);if(fit)zoom(item);return}
+ setCheckbox(item.id,true,true);setStatus("Loading "+item.name+" ("+item.count+" polygons)…");
+ const task=(async function(){
+  const data=await decodeGeoJSON(item.file);
+  const layer=L.geoJSON(data,{renderer:L.canvas(),style:function(){return{color:item.color,weight:item.kind==="final"?2.3:2,opacity:.92,fillOpacity:item.kind==="final"?.10:.08,dashArray:item.kind==="rough"?"5 5":null}},onEachFeature:function(f,fl){
+    fl.bindPopup(function(){return popup(item,f.properties)},{maxWidth:320});
+    fl.on("mouseover",function(){fl.setStyle({weight:3.8,fillOpacity:.17})});
+    fl.on("mouseout",function(){layer.resetStyle(fl)});
+  }});
+  active.set(item.id,layer);layer.addTo(map);
+  setCheckbox(item.id,true,false);setStatus(item.name+": "+item.count+" features visible. Select a polygon for details.");
+  if(fit)zoom(item);
+ })();
+ pending.set(item.id,task);
+ try{await task}catch(e){setCheckbox(item.id,false,false);setStatus("Could not load "+item.name+": "+e.message);console.error(e)}
+ finally{pending.delete(item.id)}
+}
+function zoom(item){const layer=active.get(item.id);if(layer&&layer.getBounds().isValid())map.fitBounds(layer.getBounds().pad(.09),{maxZoom:16,animate:false})}
+function hide(item){if(active.has(item.id)){map.removeLayer(active.get(item.id));active.delete(item.id)}setCheckbox(item.id,false,false);setStatus(active.size+" layer(s) visible")}
+async function toggle(item,on){if(on)await show(item,false);else hide(item)}
+function clear(){currentCatalog.forEach(function(item){hide(item)});setStatus("All datasets hidden. Select one or more layers to explore.")}
+function drawCatalog(arr){
+ list.textContent="";
+ const query=document.getElementById("search").value.trim().toLowerCase();
+ const groups=new Map();
+ arr.filter(function(item){return [item.name,item.group,item.kind].join(" ").toLowerCase().includes(query)}).forEach(function(item){
+ if(!groups.has(item.group))groups.set(item.group,[]);
+ groups.get(item.group).push(item)});
+ for(const [group,items] of groups){
+  const details=document.createElement("details");details.className="group";details.open=!!query||group.includes("Final 914")||group.includes("Verified 89");
+  const summary=document.createElement("summary");const title=document.createElement("span");title.textContent=group;const count=document.createElement("em");count.textContent=items.length+" layers";summary.append(title,count);details.appendChild(summary);
+  const div=document.createElement("div");div.className="items";
+  for(const item of items){
+   const e=document.createElement("div");e.className="dataset";e.dataset.layer=item.id;
+   const label=document.createElement("label"),input=document.createElement("input");input.type="checkbox";input.checked=active.has(item.id)||pending.has(item.id);
+   input.addEventListener("change",function(){toggle(item,input.checked)});
+   const swatch=document.createElement("i");swatch.className="swatch";swatch.style.background=item.color;
+   const text=document.createElement("span"),strong=document.createElement("strong"),small=document.createElement("small");
+   strong.textContent=titleOf(item);
+   small.textContent=item.count+" polygon"+(item.count!==1?"s":"")+" · "+item.kind;
+   text.append(strong,small);label.append(input,swatch,text);
+   const focus=document.createElement("button");focus.type="button";focus.textContent="↗";focus.title="Load and zoom to this layer";focus.setAttribute("aria-label","Zoom to "+item.name);
+   focus.addEventListener("click",function(){show(item,true)});
+   e.append(label,focus);div.appendChild(e);
+  }
+  details.appendChild(div);list.appendChild(details);
+ }
+ if(!groups.size)list.textContent="No layers match your search.";
+}
+async function start(){
+ try{
+  const r=await fetch("layers.json",{cache:"no-cache"});if(!r.ok)throw new Error("Dataset index not available (HTTP "+r.status+")");
+  const data=await r.json();currentCatalog=data.layers||[];
+  currentCatalog.forEach(function(it){definitions.set(it.id,it)});
+  drawCatalog(currentCatalog);setStatus(currentCatalog.length+" selectable layers. Loading the final 914…");
+  const final=currentCatalog.find(function(x){return x.kind==="final"});
+  if(final)await show(final,true);
+ }catch(e){list.textContent="Could not load catalog.";setStatus("Error: "+e.message+" — use a local web server instead of file://");console.error(e)}
+}
+document.getElementById("search").addEventListener("input",function(){drawCatalog(currentCatalog)});
+document.getElementById("none").addEventListener("click",clear);
+document.getElementById("finalOnly").addEventListener("click",function(){clear();const f=currentCatalog.find(function(x){return x.kind==="final"});if(f)show(f,true)});
+document.getElementById("mobileMenu").addEventListener("click",function(){sidebar.classList.toggle("hidden")});
+if(matchMedia("(max-width: 780px)").matches)sidebar.classList.add("hidden");
+document.getElementById("showDem").addEventListener("change",function(){if(!demOverlay)return;if(this.checked)demOverlay.addTo(map);else map.removeLayer(demOverlay)});
+document.getElementById("demOpacity").addEventListener("input",function(){document.getElementById("opacityLabel").textContent=this.value+"%";if(demOverlay)demOverlay.setOpacity(+this.value/100)});
+loadDEM();start();
+})();
+</script></body></html>

@@ -1,0 +1,30 @@
+{
+  "original_raster": "TPI_15m_0pt5.gdb/DetrendedDEM (private source archive)",
+  "original_crs": "EPSG:26914",
+  "original_cell_size_m": 5,
+  "original_dimensions": [
+    18032,
+    25433
+  ],
+  "web_format": "RGBA PNG EPSG:4326 display overlay",
+  "web_resolution_px": [
+    1895,
+    2400
+  ],
+  "bounds_latlon": [
+    25.23986006980746,
+    -98.00857886365372,
+    26.39670125540339,
+    -97.09536680568108
+  ],
+  "display_range_m": [
+    -0.5,
+    0.5
+  ],
+  "palette": "low = blue/teal; high = orange/brown",
+  "pixels_with_data": 4039171,
+  "overview_source": "resampled bilinear from original 5 m DEM",
+  "scientific_use": "display only; do not extract quantitative heights from colored image",
+  "public_release_note": "PNG represents coarse/resampled public display DEM, not unmodified raster",
+  "sha256": "87f9ca63dec48441ba7245f870b395e59a0961e372ec03eacd1096522135ab30"
+}

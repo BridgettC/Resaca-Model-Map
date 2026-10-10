@@ -1,0 +1,842 @@
+{
+  "version": 1,
+  "notice": "Display-only geometries simplified for interactive use; archive GeoJSON is unchanged.",
+  "layers": [
+    {
+      "id": "07_Final_TPI_914",
+      "name": "Final TPI 914",
+      "group": "07 | Final 914",
+      "phase": "07",
+      "kind": "final",
+      "count": 914,
+      "file": "data/07_Final_TPI_914.geojson.gz",
+      "source": "07_Final_Polygons_914/polygons/Final_TPI_914.geojson.gz",
+      "color": "#d45c3d",
+      "bounds": [
+        -97.83169074875958,
+        25.528380183648522,
+        -97.15474955316799,
+        26.340766773006973
+      ],
+      "caveat": "Final accepted geometry; source may include edits, splits or merges.",
+      "display_simplified": true
+    },
+    {
+      "id": "02_Candidate_Rough_First33_ResacaID",
+      "name": "Candidate Rough First33 ResacaID",
+      "group": "02 | Early 33 candidates",
+      "phase": "02",
+      "kind": "rough",
+      "count": 33,
+      "file": "data/02_Candidate_Rough_First33_ResacaID.geojson.gz",
+      "source": "02_Active_Learning_33_55_89/01_33_Diagnostics/polygons/Candidate_Rough_First33_ResacaID.geojson.gz",
+      "color": "#be8b55",
+      "bounds": [
+        -97.80802296541533,
+        26.06580077599324,
+        -97.72941142287776,
+        26.10079836194698
+      ],
+      "caveat": "Candidate first-33 subset; ResacaID order does not prove editing chronology.",
+      "display_simplified": true
+    },
+    {
+      "id": "02_Candidate_Training_First33_ResacaID",
+      "name": "Candidate Training First33 ResacaID",
+      "group": "02 | Early 33 candidates",
+      "phase": "02",
+      "kind": "training",
+      "count": 33,
+      "file": "data/02_Candidate_Training_First33_ResacaID.geojson.gz",
+      "source": "02_Active_Learning_33_55_89/01_33_Diagnostics/polygons/Candidate_Training_First33_ResacaID.geojson.gz",
+      "color": "#358c8c",
+      "bounds": [
+        -97.80803002429701,
+        26.06579054880023,
+        -97.72933871296046,
+        26.10083593347831
+      ],
+      "caveat": "Candidate first-33 subset; ResacaID order does not prove editing chronology.",
+      "display_simplified": true
+    },
+    {
+      "id": "02_Diagnostic_Adaptive33",
+      "name": "Diagnostic Adaptive33",
+      "group": "02 | Early 33 candidates",
+      "phase": "02",
+      "kind": "diagnostic",
+      "count": 33,
+      "file": "data/02_Diagnostic_Adaptive33.geojson.gz",
+      "source": "02_Active_Learning_33_55_89/01_33_Diagnostics/polygons/Diagnostic_Adaptive33.geojson.gz",
+      "color": "#9b8f6f",
+      "bounds": [
+        -97.37127590027225,
+        25.8675130522516,
+        -97.33407826158873,
+        25.909789561153246
+      ],
+      "caveat": "Diagnostics only; not saved model polygon predictions.",
+      "display_simplified": true
+    },
+    {
+      "id": "02_Diagnostic_Current33",
+      "name": "Diagnostic Current33",
+      "group": "02 | Early 33 candidates",
+      "phase": "02",
+      "kind": "diagnostic",
+      "count": 33,
+      "file": "data/02_Diagnostic_Current33.geojson.gz",
+      "source": "02_Active_Learning_33_55_89/01_33_Diagnostics/polygons/Diagnostic_Current33.geojson.gz",
+      "color": "#9b8f6f",
+      "bounds": [
+        -97.37127590027225,
+        25.8675130522516,
+        -97.33410277294149,
+        25.909789561153246
+      ],
+      "caveat": "Diagnostics only; not saved model polygon predictions.",
+      "display_simplified": true
+    },
+    {
+      "id": "02_Working_Prediction_HF_R001",
+      "name": "Working Prediction HF R001",
+      "group": "02 | Experimental 55",
+      "phase": "02",
+      "kind": "prediction",
+      "count": 55,
+      "file": "data/02_Working_Prediction_HF_R001.geojson.gz",
+      "source": "02_Active_Learning_33_55_89/03_55_Experiments/polygons/Working_Prediction_HF_R001.geojson.gz",
+      "color": "#536ee3",
+      "bounds": [
+        -97.56088656509704,
+        25.943637859480308,
+        -97.42029361020427,
+        25.998871058341386
+      ],
+      "caveat": "Saved model predictions; the cohort may differ from the same-numbered training set.",
+      "display_simplified": true
+    },
+    {
+      "id": "02_Working_Prediction_HF_R001_Edits",
+      "name": "Working Prediction HF R001 Edits",
+      "group": "02 | Experimental 55",
+      "phase": "02",
+      "kind": "prediction",
+      "count": 55,
+      "file": "data/02_Working_Prediction_HF_R001_Edits.geojson.gz",
+      "source": "02_Active_Learning_33_55_89/03_55_Experiments/polygons/Working_Prediction_HF_R001_Edits.geojson.gz",
+      "color": "#536ee3",
+      "bounds": [
+        -97.56088656509704,
+        25.943637859480308,
+        -97.42029361020427,
+        25.998871058341386
+      ],
+      "caveat": "Saved model predictions; the cohort may differ from the same-numbered training set.",
+      "display_simplified": true
+    },
+    {
+      "id": "02_Working_Raw_2",
+      "name": "Working Raw 2",
+      "group": "02 | Experimental 55",
+      "phase": "02",
+      "kind": "rough",
+      "count": 55,
+      "file": "data/02_Working_Raw_2.geojson.gz",
+      "source": "02_Active_Learning_33_55_89/03_55_Experiments/polygons/Working_Raw_2.geojson.gz",
+      "color": "#be8b55",
+      "bounds": [
+        -97.56086135536589,
+        25.94356228476957,
+        -97.42014358349763,
+        25.998815337018293
+      ],
+      "caveat": "Rough reference outlines, not geomorphic ground truth.",
+      "display_simplified": true
+    },
+    {
+      "id": "02_Raw_89",
+      "name": "Raw 89",
+      "group": "02 | Verified 89",
+      "phase": "02",
+      "kind": "rough",
+      "count": 89,
+      "file": "data/02_Raw_89.geojson.gz",
+      "source": "02_Active_Learning_33_55_89/04_89_Training_Dataset/polygons/Raw_89.geojson.gz",
+      "color": "#be8b55",
+      "bounds": [
+        -97.80802296541533,
+        26.02036731928583,
+        -97.60557808547858,
+        26.110495718854445
+      ],
+      "caveat": "Rough reference outlines, not geomorphic ground truth.",
+      "display_simplified": true
+    },
+    {
+      "id": "02_Training_89",
+      "name": "Training 89",
+      "group": "02 | Verified 89",
+      "phase": "02",
+      "kind": "training",
+      "count": 89,
+      "file": "data/02_Training_89.geojson.gz",
+      "source": "02_Active_Learning_33_55_89/04_89_Training_Dataset/polygons/Training_89.geojson.gz",
+      "color": "#358c8c",
+      "bounds": [
+        -97.80803002429701,
+        26.020353047505164,
+        -97.60565267983083,
+        26.110502703969395
+      ],
+      "caveat": "Accepted edited boundaries, not independent model predictions.",
+      "display_simplified": true
+    },
+    {
+      "id": "03_RoughOutlines139_BaseModel",
+      "name": "RoughOutlines139 BaseModel",
+      "group": "03 | Baseline 139",
+      "phase": "03",
+      "kind": "rough",
+      "count": 139,
+      "file": "data/03_RoughOutlines139_BaseModel.geojson.gz",
+      "source": "03_Base_Model_139/polygons/RoughOutlines139_BaseModel.geojson.gz",
+      "color": "#be8b55",
+      "bounds": [
+        -97.80802296541533,
+        25.99620266096924,
+        -97.53158648533206,
+        26.110495718854445
+      ],
+      "caveat": "Rough reference outlines, not geomorphic ground truth.",
+      "display_simplified": true
+    },
+    {
+      "id": "03_Saved_RLHF1_Prediction_55",
+      "name": "Saved RLHF1 Prediction 55",
+      "group": "03 | Baseline 139",
+      "phase": "03",
+      "kind": "prediction",
+      "count": 55,
+      "file": "data/03_Saved_RLHF1_Prediction_55.geojson.gz",
+      "source": "03_Base_Model_139/polygons/Saved_RLHF1_Prediction_55.geojson.gz",
+      "color": "#536ee3",
+      "bounds": [
+        -97.56100086802086,
+        25.943629822587198,
+        -97.42027608524737,
+        25.99889140802536
+      ],
+      "caveat": "Saved model predictions; the cohort may differ from the same-numbered training set.",
+      "display_simplified": true
+    },
+    {
+      "id": "03_Training139_BaseModel",
+      "name": "Training139 BaseModel",
+      "group": "03 | Baseline 139",
+      "phase": "03",
+      "kind": "training",
+      "count": 139,
+      "file": "data/03_Training139_BaseModel.geojson.gz",
+      "source": "03_Base_Model_139/polygons/Training139_BaseModel.geojson.gz",
+      "color": "#358c8c",
+      "bounds": [
+        -97.80803002429698,
+        25.99622942598861,
+        -97.53142887022257,
+        26.110502703969377
+      ],
+      "caveat": "Accepted edited boundaries, not independent model predictions.",
+      "display_simplified": true
+    },
+    {
+      "id": "04_RLHF1_Edits",
+      "name": "RLHF1 Edits",
+      "group": "04 | RLHF batch 1",
+      "phase": "04",
+      "kind": "training",
+      "count": 55,
+      "file": "data/04_RLHF1_Edits.geojson.gz",
+      "source": "04_RLHF_Model_Progression/polygons/RLHF1_Edits.geojson.gz",
+      "color": "#358c8c",
+      "bounds": [
+        -97.56100086840873,
+        25.943629822587198,
+        -97.42027608524737,
+        25.99902908959671
+      ],
+      "caveat": "Accepted edited boundaries, not independent model predictions.",
+      "display_simplified": true
+    },
+    {
+      "id": "04_RLHF1_Prediction",
+      "name": "RLHF1 Prediction",
+      "group": "04 | RLHF batch 1",
+      "phase": "04",
+      "kind": "prediction",
+      "count": 55,
+      "file": "data/04_RLHF1_Prediction.geojson.gz",
+      "source": "04_RLHF_Model_Progression/polygons/RLHF1_Prediction.geojson.gz",
+      "color": "#536ee3",
+      "bounds": [
+        -97.56100086802086,
+        25.943629822587198,
+        -97.42027608524737,
+        25.99889140802536
+      ],
+      "caveat": "Saved model predictions; the cohort may differ from the same-numbered training set.",
+      "display_simplified": true
+    },
+    {
+      "id": "04_RLHF1_Roughoutlines",
+      "name": "RLHF1 Roughoutlines",
+      "group": "04 | RLHF batch 1",
+      "phase": "04",
+      "kind": "rough",
+      "count": 55,
+      "file": "data/04_RLHF1_Roughoutlines.geojson.gz",
+      "source": "04_RLHF_Model_Progression/polygons/RLHF1_Roughoutlines.geojson.gz",
+      "color": "#be8b55",
+      "bounds": [
+        -97.56086135536589,
+        25.94356228476957,
+        -97.42014358349763,
+        25.998815337018293
+      ],
+      "caveat": "Rough reference outlines, not geomorphic ground truth.",
+      "display_simplified": true
+    },
+    {
+      "id": "04_RLGF2_Roughoutlines",
+      "name": "RLGF2 Roughoutlines",
+      "group": "04 | RLHF batch 2",
+      "phase": "04",
+      "kind": "rough",
+      "count": 64,
+      "file": "data/04_RLGF2_Roughoutlines.geojson.gz",
+      "source": "04_RLHF_Model_Progression/polygons/RLGF2_Roughoutlines.geojson.gz",
+      "color": "#be8b55",
+      "bounds": [
+        -97.44273076339867,
+        25.884384670991793,
+        -97.37971767340157,
+        25.940235742602734
+      ],
+      "caveat": "Rough reference outlines, not geomorphic ground truth.",
+      "display_simplified": true
+    },
+    {
+      "id": "04_RLHF2_Edits",
+      "name": "RLHF2 Edits",
+      "group": "04 | RLHF batch 2",
+      "phase": "04",
+      "kind": "training",
+      "count": 64,
+      "file": "data/04_RLHF2_Edits.geojson.gz",
+      "source": "04_RLHF_Model_Progression/polygons/RLHF2_Edits.geojson.gz",
+      "color": "#358c8c",
+      "bounds": [
+        -97.44275398019859,
+        25.884317350708805,
+        -97.37952185692464,
+        25.940220359128634
+      ],
+      "caveat": "Accepted edited boundaries, not independent model predictions.",
+      "display_simplified": true
+    },
+    {
+      "id": "04_RLHF2_Predictions",
+      "name": "RLHF2 Predictions",
+      "group": "04 | RLHF batch 2",
+      "phase": "04",
+      "kind": "prediction",
+      "count": 64,
+      "file": "data/04_RLHF2_Predictions.geojson.gz",
+      "source": "04_RLHF_Model_Progression/polygons/RLHF2_Predictions.geojson.gz",
+      "color": "#536ee3",
+      "bounds": [
+        -97.44275398056355,
+        25.884317350708805,
+        -97.37957786956139,
+        25.940220359128634
+      ],
+      "caveat": "Saved model predictions; the cohort may differ from the same-numbered training set.",
+      "display_simplified": true
+    },
+    {
+      "id": "04_RLHF3_Edits",
+      "name": "RLHF3 Edits",
+      "group": "04 | RLHF batch 3",
+      "phase": "04",
+      "kind": "training",
+      "count": 60,
+      "file": "data/04_RLHF3_Edits.geojson.gz",
+      "source": "04_RLHF_Model_Progression/polygons/RLHF3_Edits.geojson.gz",
+      "color": "#358c8c",
+      "bounds": [
+        -97.57483117496747,
+        25.88587284744305,
+        -97.4370702663986,
+        25.996344397342806
+      ],
+      "caveat": "Accepted edited boundaries, not independent model predictions.",
+      "display_simplified": true
+    },
+    {
+      "id": "04_RLHF3_Predictions",
+      "name": "RLHF3 Predictions",
+      "group": "04 | RLHF batch 3",
+      "phase": "04",
+      "kind": "prediction",
+      "count": 60,
+      "file": "data/04_RLHF3_Predictions.geojson.gz",
+      "source": "04_RLHF_Model_Progression/polygons/RLHF3_Predictions.geojson.gz",
+      "color": "#536ee3",
+      "bounds": [
+        -97.57483117496747,
+        25.88587284744305,
+        -97.4370702663986,
+        25.996344397342806
+      ],
+      "caveat": "Saved model predictions; the cohort may differ from the same-numbered training set.",
+      "display_simplified": true
+    },
+    {
+      "id": "04_RLHF3_Roughoutlines",
+      "name": "RLHF3 Roughoutlines",
+      "group": "04 | RLHF batch 3",
+      "phase": "04",
+      "kind": "rough",
+      "count": 60,
+      "file": "data/04_RLHF3_Roughoutlines.geojson.gz",
+      "source": "04_RLHF_Model_Progression/polygons/RLHF3_Roughoutlines.geojson.gz",
+      "color": "#be8b55",
+      "bounds": [
+        -97.57470521647441,
+        25.88589368910578,
+        -97.43712074333263,
+        25.99625595986516
+      ],
+      "caveat": "Rough reference outlines, not geomorphic ground truth.",
+      "display_simplified": true
+    },
+    {
+      "id": "04_RLHF4_Edits",
+      "name": "RLHF4 Edits",
+      "group": "04 | RLHF batch 4",
+      "phase": "04",
+      "kind": "training",
+      "count": 70,
+      "file": "data/04_RLHF4_Edits.geojson.gz",
+      "source": "04_RLHF_Model_Progression/polygons/RLHF4_Edits.geojson.gz",
+      "color": "#358c8c",
+      "bounds": [
+        -97.61682448170372,
+        25.896644896579364,
+        -97.46467722236932,
+        26.09543422439897
+      ],
+      "caveat": "Accepted edited boundaries, not independent model predictions.",
+      "display_simplified": true
+    },
+    {
+      "id": "04_RLHF4_Predictions",
+      "name": "RLHF4 Predictions",
+      "group": "04 | RLHF batch 4",
+      "phase": "04",
+      "kind": "prediction",
+      "count": 70,
+      "file": "data/04_RLHF4_Predictions.geojson.gz",
+      "source": "04_RLHF_Model_Progression/polygons/RLHF4_Predictions.geojson.gz",
+      "color": "#536ee3",
+      "bounds": [
+        -97.61674719755061,
+        25.896644896579364,
+        -97.46467722236932,
+        26.09543422439897
+      ],
+      "caveat": "Saved model predictions; the cohort may differ from the same-numbered training set.",
+      "display_simplified": true
+    },
+    {
+      "id": "04_RLHF4_Roughoutlines",
+      "name": "RLHF4 Roughoutlines",
+      "group": "04 | RLHF batch 4",
+      "phase": "04",
+      "kind": "rough",
+      "count": 70,
+      "file": "data/04_RLHF4_Roughoutlines.geojson.gz",
+      "source": "04_RLHF_Model_Progression/polygons/RLHF4_Roughoutlines.geojson.gz",
+      "color": "#be8b55",
+      "bounds": [
+        -97.61652158309268,
+        25.89673444151138,
+        -97.46467722046646,
+        26.09545695771598
+      ],
+      "caveat": "Rough reference outlines, not geomorphic ground truth.",
+      "display_simplified": true
+    },
+    {
+      "id": "04_RLHF5_Edits",
+      "name": "RLHF5 Edits",
+      "group": "04 | RLHF batch 5",
+      "phase": "04",
+      "kind": "training",
+      "count": 50,
+      "file": "data/04_RLHF5_Edits.geojson.gz",
+      "source": "04_RLHF_Model_Progression/polygons/RLHF5_Edits.geojson.gz",
+      "color": "#358c8c",
+      "bounds": [
+        -97.57473100760924,
+        26.06861953404069,
+        -97.43425486957234,
+        26.117704419231572
+      ],
+      "caveat": "Accepted edited boundaries, not independent model predictions.",
+      "display_simplified": true
+    },
+    {
+      "id": "04_RLHF5_Predictions",
+      "name": "RLHF5 Predictions",
+      "group": "04 | RLHF batch 5",
+      "phase": "04",
+      "kind": "prediction",
+      "count": 50,
+      "file": "data/04_RLHF5_Predictions.geojson.gz",
+      "source": "04_RLHF_Model_Progression/polygons/RLHF5_Predictions.geojson.gz",
+      "color": "#536ee3",
+      "bounds": [
+        -97.57473100760924,
+        26.068669311346135,
+        -97.43425486957234,
+        26.117706001152435
+      ],
+      "caveat": "Saved model predictions; the cohort may differ from the same-numbered training set.",
+      "display_simplified": true
+    },
+    {
+      "id": "04_RLHF5_Roughoutlines",
+      "name": "RLHF5 Roughoutlines",
+      "group": "04 | RLHF batch 5",
+      "phase": "04",
+      "kind": "rough",
+      "count": 50,
+      "file": "data/04_RLHF5_Roughoutlines.geojson.gz",
+      "source": "04_RLHF_Model_Progression/polygons/RLHF5_Roughoutlines.geojson.gz",
+      "color": "#be8b55",
+      "bounds": [
+        -97.57457864904706,
+        26.068817991781366,
+        -97.43410226244087,
+        26.11759383971213
+      ],
+      "caveat": "Rough reference outlines, not geomorphic ground truth.",
+      "display_simplified": true
+    },
+    {
+      "id": "04_RLHF6_Edits",
+      "name": "RLHF6 Edits",
+      "group": "04 | RLHF batch 6",
+      "phase": "04",
+      "kind": "training",
+      "count": 49,
+      "file": "data/04_RLHF6_Edits.geojson.gz",
+      "source": "04_RLHF_Model_Progression/polygons/RLHF6_Edits.geojson.gz",
+      "color": "#358c8c",
+      "bounds": [
+        -97.43824805203991,
+        26.11105104581762,
+        -97.37792332697667,
+        26.17749903759463
+      ],
+      "caveat": "Accepted edited boundaries, not independent model predictions.",
+      "display_simplified": true
+    },
+    {
+      "id": "04_RLHF6_Predictions",
+      "name": "RLHF6 Predictions",
+      "group": "04 | RLHF batch 6",
+      "phase": "04",
+      "kind": "prediction",
+      "count": 49,
+      "file": "data/04_RLHF6_Predictions.geojson.gz",
+      "source": "04_RLHF_Model_Progression/polygons/RLHF6_Predictions.geojson.gz",
+      "color": "#536ee3",
+      "bounds": [
+        -97.43824805203991,
+        26.11105104581762,
+        -97.37792332697667,
+        26.17749903759463
+      ],
+      "caveat": "Saved model predictions; the cohort may differ from the same-numbered training set.",
+      "display_simplified": true
+    },
+    {
+      "id": "04_RLHF6_Roughoutlines",
+      "name": "RLHF6 Roughoutlines",
+      "group": "04 | RLHF batch 6",
+      "phase": "04",
+      "kind": "rough",
+      "count": 49,
+      "file": "data/04_RLHF6_Roughoutlines.geojson.gz",
+      "source": "04_RLHF_Model_Progression/polygons/RLHF6_Roughoutlines.geojson.gz",
+      "color": "#be8b55",
+      "bounds": [
+        -97.4382562408674,
+        26.11111698072994,
+        -97.37799106100901,
+        26.177451143919775
+      ],
+      "caveat": "Rough reference outlines, not geomorphic ground truth.",
+      "display_simplified": true
+    },
+    {
+      "id": "04_RLHF7_Edits",
+      "name": "RLHF7 Edits",
+      "group": "04 | RLHF batch 7",
+      "phase": "04",
+      "kind": "training",
+      "count": 50,
+      "file": "data/04_RLHF7_Edits.geojson.gz",
+      "source": "04_RLHF_Model_Progression/polygons/RLHF7_Edits.geojson.gz",
+      "color": "#358c8c",
+      "bounds": [
+        -97.38974177928698,
+        26.166570544461447,
+        -97.3460105080638,
+        26.263243600645065
+      ],
+      "caveat": "Accepted edited boundaries, not independent model predictions.",
+      "display_simplified": true
+    },
+    {
+      "id": "04_RLHF7_Predictions",
+      "name": "RLHF7 Predictions",
+      "group": "04 | RLHF batch 7",
+      "phase": "04",
+      "kind": "prediction",
+      "count": 50,
+      "file": "data/04_RLHF7_Predictions.geojson.gz",
+      "source": "04_RLHF_Model_Progression/polygons/RLHF7_Predictions.geojson.gz",
+      "color": "#536ee3",
+      "bounds": [
+        -97.38974177928698,
+        26.166570544461447,
+        -97.3460105080638,
+        26.263243600645065
+      ],
+      "caveat": "Saved model predictions; the cohort may differ from the same-numbered training set.",
+      "display_simplified": true
+    },
+    {
+      "id": "04_RLHF7_Roughoutlines",
+      "name": "RLHF7 Roughoutlines",
+      "group": "04 | RLHF batch 7",
+      "phase": "04",
+      "kind": "rough",
+      "count": 50,
+      "file": "data/04_RLHF7_Roughoutlines.geojson.gz",
+      "source": "04_RLHF_Model_Progression/polygons/RLHF7_Roughoutlines.geojson.gz",
+      "color": "#be8b55",
+      "bounds": [
+        -97.38954532930428,
+        26.166795032802433,
+        -97.34604198388922,
+        26.263226319491125
+      ],
+      "caveat": "Rough reference outlines, not geomorphic ground truth.",
+      "display_simplified": true
+    },
+    {
+      "id": "04_RLHF8_Edits",
+      "name": "RLHF8 Edits",
+      "group": "04 | RLHF batch 8",
+      "phase": "04",
+      "kind": "training",
+      "count": 36,
+      "file": "data/04_RLHF8_Edits.geojson.gz",
+      "source": "04_RLHF_Model_Progression/polygons/RLHF8_Edits.geojson.gz",
+      "color": "#358c8c",
+      "bounds": [
+        -97.38149580351667,
+        26.26260561185937,
+        -97.34600811844795,
+        26.340766773006955
+      ],
+      "caveat": "Accepted edited boundaries, not independent model predictions.",
+      "display_simplified": true
+    },
+    {
+      "id": "04_RLHF8_Predictions",
+      "name": "RLHF8 Predictions",
+      "group": "04 | RLHF batch 8",
+      "phase": "04",
+      "kind": "prediction",
+      "count": 36,
+      "file": "data/04_RLHF8_Predictions.geojson.gz",
+      "source": "04_RLHF_Model_Progression/polygons/RLHF8_Predictions.geojson.gz",
+      "color": "#536ee3",
+      "bounds": [
+        -97.3816760952572,
+        26.26260561185937,
+        -97.34600811844795,
+        26.340766773006955
+      ],
+      "caveat": "Saved model predictions; the cohort may differ from the same-numbered training set.",
+      "display_simplified": true
+    },
+    {
+      "id": "04_RLHF8_Roughoutlines",
+      "name": "RLHF8 Roughoutlines",
+      "group": "04 | RLHF batch 8",
+      "phase": "04",
+      "kind": "rough",
+      "count": 36,
+      "file": "data/04_RLHF8_Roughoutlines.geojson.gz",
+      "source": "04_RLHF_Model_Progression/polygons/RLHF8_Roughoutlines.geojson.gz",
+      "color": "#be8b55",
+      "bounds": [
+        -97.3817130639248,
+        26.26275960471782,
+        -97.34600662119182,
+        26.340586238517275
+      ],
+      "caveat": "Rough reference outlines, not geomorphic ground truth.",
+      "display_simplified": true
+    },
+    {
+      "id": "05_Raw",
+      "name": "Raw",
+      "group": "05 | Baseline 702",
+      "phase": "05",
+      "kind": "rough",
+      "count": 702,
+      "file": "data/05_Raw.geojson.gz",
+      "source": "05_Base_Model_702/polygons/Raw.geojson.gz",
+      "color": "#be8b55",
+      "bounds": [
+        -97.83172490585136,
+        25.884384670991793,
+        -97.2782238786837,
+        26.340586238517275
+      ],
+      "caveat": "Rough reference outlines, not geomorphic ground truth.",
+      "display_simplified": true
+    },
+    {
+      "id": "05_Traning",
+      "name": "Traning",
+      "group": "05 | Baseline 702",
+      "phase": "05",
+      "kind": "training",
+      "count": 702,
+      "file": "data/05_Traning.geojson.gz",
+      "source": "05_Base_Model_702/polygons/Traning.geojson.gz",
+      "color": "#358c8c",
+      "bounds": [
+        -97.83169074875958,
+        25.884317350708805,
+        -97.27647051707542,
+        26.340766773006973
+      ],
+      "caveat": "Accepted edited boundaries, not independent model predictions.",
+      "display_simplified": true
+    },
+    {
+      "id": "05_Working_Predictions_702",
+      "name": "Working Predictions 702",
+      "group": "05 | Baseline 702",
+      "phase": "05",
+      "kind": "prediction",
+      "count": 558,
+      "file": "data/05_Working_Predictions_702.geojson.gz",
+      "source": "05_Base_Model_702/polygons/Working_Predictions_702.geojson.gz",
+      "color": "#536ee3",
+      "bounds": [
+        -97.83169896816304,
+        25.811657908410425,
+        -97.15494284015486,
+        26.196232087556975
+      ],
+      "caveat": "Saved model predictions; the cohort may differ from the same-numbered training set.",
+      "display_simplified": true
+    },
+    {
+      "id": "06_Roughoutlines739",
+      "name": "Roughoutlines739",
+      "group": "06 | TPI model 739",
+      "phase": "06",
+      "kind": "rough",
+      "count": 739,
+      "file": "data/06_Roughoutlines739.geojson.gz",
+      "source": "06_TPI_Model_739/polygons/Roughoutlines739.geojson.gz",
+      "color": "#be8b55",
+      "bounds": [
+        -97.83172490585136,
+        25.86747089227154,
+        -97.2782238786837,
+        26.340586238517275
+      ],
+      "caveat": "Rough reference outlines, not geomorphic ground truth.",
+      "display_simplified": true
+    },
+    {
+      "id": "06_Training739",
+      "name": "Training739",
+      "group": "06 | TPI model 739",
+      "phase": "06",
+      "kind": "training",
+      "count": 739,
+      "file": "data/06_Training739.geojson.gz",
+      "source": "06_TPI_Model_739/polygons/Training739.geojson.gz",
+      "color": "#358c8c",
+      "bounds": [
+        -97.83169074875958,
+        25.867476216198437,
+        -97.27647051707542,
+        26.340766773006973
+      ],
+      "caveat": "Accepted edited boundaries, not independent model predictions.",
+      "display_simplified": true
+    },
+    {
+      "id": "06_Working_Predictions_TPIUNet",
+      "name": "Working Predictions TPIUNet",
+      "group": "06 | TPI model 739",
+      "phase": "06",
+      "kind": "prediction",
+      "count": 392,
+      "file": "data/06_Working_Predictions_TPIUNet.geojson.gz",
+      "source": "06_TPI_Model_739/polygons/Working_Predictions_TPIUNet.geojson.gz",
+      "color": "#536ee3",
+      "bounds": [
+        -97.71958744291037,
+        25.811643946387626,
+        -97.16747493118501,
+        26.116639314409014
+      ],
+      "caveat": "Saved model predictions; the cohort may differ from the same-numbered training set.",
+      "display_simplified": true
+    },
+    {
+      "id": "07_Reconstructed_702_on_879",
+      "name": "Reconstructed 702 on 879",
+      "group": "07 | Final 914",
+      "phase": "07",
+      "kind": "reconstruction",
+      "count": 878,
+      "file": "data/07_Reconstructed_702_on_879.geojson.gz",
+      "source": "07_Final_Polygons_914/polygons/Reconstructed_702_on_879.geojson.gz",
+      "color": "#a963c9",
+      "bounds": [
+        -97.83169896816304,
+        25.528307302947855,
+        -97.15494284015486,
+        26.340765124883326
+      ],
+      "caveat": "This is a retrospective replay, not a saved historical pre-edit prediction.",
+      "display_simplified": true
+    }
+  ]
+}
