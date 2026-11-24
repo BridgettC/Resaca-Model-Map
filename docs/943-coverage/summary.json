@@ -1,0 +1,24 @@
+{
+  "total_final": 943,
+  "covered_final": 943,
+  "types": {
+    "RETROSPECTIVE_702_ROUGH_CANDIDATE": 225,
+    "SAVED_OR_RECONSTRUCTED_MASTER_611": 611,
+    "SAVED_PARENT_PREDICTION_SPLIT_OR_AMBIGUOUS": 2,
+    "DIAGNOSTIC_FINAL_AS_INPUT": 69,
+    "RETROSPECTIVE_702_SPLIT_PARENT": 36
+  },
+  "source_featureclasses": {
+    "master": "C:\\Users\\Bridg\\Prediction Reconstructions\\Resaca_Prediction_Reconstruction.gdb\\Model_Predictions",
+    "retro": "C:\\Users\\Bridg\\Proposal2026\\Resaca_702_Retrospective_268_20261123\\Replay702_268.gdb\\Replay702_Predictions_268_WithHistoricalIDs",
+    "diagnostic": "C:\\Users\\Bridg\\Proposal2026\\TPI69_AsRough_702_Diagnostic_20261123\\Diagnostic702_69.gdb\\Predictions_702_FinalAsRough69"
+  },
+  "notes": [
+    "Do not interpret 943 rows as 943 independently generated historic predictions",
+    "Original master 611 includes both saved and reconstructed stages; refer to model source and master provenance",
+    "36 shared-rough split cases reuse parent-level newly replayed 702 prediction",
+    "69 diagnostic cases use final TPI polygon as model input",
+    "2 ambiguous finals reuse saved parent predictions with exact rough-outline geometry matches"
+  ],
+  "created": "2026-11-23T23:50:42.973763"
+}
