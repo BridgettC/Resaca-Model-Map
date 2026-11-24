@@ -2,11 +2,11 @@
   "total_final": 943,
   "covered_final": 943,
   "types": {
+    "DIAGNOSTIC_FINAL_AS_INPUT": 71,
     "RETROSPECTIVE_702_ROUGH_CANDIDATE": 225,
+    "RETROSPECTIVE_702_SPLIT_PARENT": 34,
     "SAVED_OR_RECONSTRUCTED_MASTER_611": 611,
-    "SAVED_PARENT_PREDICTION_SPLIT_OR_AMBIGUOUS": 2,
-    "DIAGNOSTIC_FINAL_AS_INPUT": 69,
-    "RETROSPECTIVE_702_SPLIT_PARENT": 36
+    "SAVED_PARENT_PREDICTION_SPLIT_OR_AMBIGUOUS": 2
   },
   "source_featureclasses": {
     "master": "C:\\Users\\Bridg\\Prediction Reconstructions\\Resaca_Prediction_Reconstruction.gdb\\Model_Predictions",
@@ -20,5 +20,23 @@
     "69 diagnostic cases use final TPI polygon as model input",
     "2 ambiguous finals reuse saved parent predictions with exact rough-outline geometry matches"
   ],
-  "created": "2026-11-23T23:50:42.973763"
+  "created": "2026-11-23T23:50:42.973763",
+  "corrections": [
+    {
+      "updated_at": "2026-11-23T23:59:00.213761",
+      "tpi_ids": [
+        1070,
+        1071
+      ],
+      "old_type": "RETROSPECTIVE_702_SPLIT_PARENT",
+      "new_type": "DIAGNOSTIC_FINAL_AS_INPUT",
+      "new_prediction_fc": "C:\\Users\\Bridg\\Proposal2026\\RET053_RET054_702_Diagnostic_20261123\\RET53_54_Diagnostic.gdb\\Predictions_702_FinalAsRough2",
+      "backup_fc": "C:\\Users\\Bridg\\Proposal2026\\TPI943_PredictionCoverage_Audit_20261123\\TPI943_PredictionCoverage.gdb\\Backup_RET053_RET054_ParentPredictions",
+      "new_iou": {
+        "1070": 0.9622773966960321,
+        "1071": 0.9494912788584964
+      },
+      "validation_note": "These final polygon geometries were supplied as input, making IoU non-independent."
+    }
+  ]
 }
