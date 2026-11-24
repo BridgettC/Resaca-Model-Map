@@ -1,0 +1,3 @@
+TPI_ID,ResacaID,ParentRoughOID,NewDiagnosticIoU,Image
+1070,RET053,20,0.9622773966960321,ret1070_diagnostic.png
+1071,RET054,22,0.9494912788584964,ret1071_diagnostic.png
