@@ -1,0 +1,75 @@
+# 69 final polygons as model 702 rough inputs
+
+**Diagnostic only, not independent validation or historical prediction reconstruction.**
+
+[Open single-page gallery](index.html) · [CSV](gallery_index.csv)
+
+- [TPI 880, RDLF047_A2](thumbnails/tpi_0880.png) — Predicted, IoU 0.893505
+- [TPI 881, RDLF047_A3](thumbnails/tpi_0881.png) — Predicted, IoU 0.895933
+- [TPI 882, RDLF047_A1](thumbnails/tpi_0882.png) — Predicted, IoU 0.886384
+- [TPI 883, RDLF047_A4](thumbnails/tpi_0883.png) — Predicted, IoU 0.782881
+- [TPI 884, RDLF051_A1](thumbnails/tpi_0884.png) — Predicted, IoU 0.829626
+- [TPI 885, RDLF051_A2](thumbnails/tpi_0885.png) — Predicted, IoU 0.944827
+- [TPI 886, RDLF051_A3](thumbnails/tpi_0886.png) — Predicted, IoU 0.723704
+- [TPI 887, RDLF051_A4](thumbnails/tpi_0887.png) — Predicted, IoU 0.724080
+- [TPI 888, RDLF051_B1](thumbnails/tpi_0888.png) — Predicted, IoU 0.955824
+- [TPI 889, RDLF051_B2](thumbnails/tpi_0889.png) — Predicted, IoU 0.942433
+- [TPI 890, RDLC016_A1](thumbnails/tpi_0890.png) — Predicted, IoU 0.890147
+- [TPI 891, RDLC016_A4](thumbnails/tpi_0891.png) — Predicted, IoU 0.864845
+- [TPI 892, RDLC016_A3](thumbnails/tpi_0892.png) — Predicted, IoU 0.768765
+- [TPI 893, RDLC016_A2](thumbnails/tpi_0893.png) — Predicted, IoU 0.663726
+- [TPI 894, RDLC017_A1](thumbnails/tpi_0894.png) — Predicted, IoU 0.860342
+- [TPI 895, RDLC018_A1](thumbnails/tpi_0895.png) — Predicted, IoU 0.917587
+- [TPI 896, RDLC018_A2](thumbnails/tpi_0896.png) — Predicted, IoU 0.587200
+- [TPI 897, RDLC019_E3](thumbnails/tpi_0897.png) — Predicted, IoU 0.885550
+- [TPI 898, RDLC019_E2](thumbnails/tpi_0898.png) — Predicted, IoU 0.822432
+- [TPI 899, RDLC019_E1](thumbnails/tpi_0899.png) — Predicted, IoU 0.863964
+- [TPI 900, RDLC019_E4](thumbnails/tpi_0900.png) — Predicted, IoU 0.694169
+- [TPI 901, RDLC019_E5](thumbnails/tpi_0901.png) — Predicted, IoU 0.744159
+- [TPI 902, RDLC030_D1](thumbnails/tpi_0902.png) — Predicted, IoU 0.858884
+- [TPI 903, RDLC030_D2](thumbnails/tpi_0903.png) — Predicted, IoU 0.820169
+- [TPI 904, RDLC032_A1](thumbnails/tpi_0904.png) — Predicted, IoU 0.753943
+- [TPI 905, RDLC032_A3](thumbnails/tpi_0905.png) — Predicted, IoU 0.626273
+- [TPI 906, RDLC032_A2](thumbnails/tpi_0906.png) — Predicted, IoU 0.657838
+- [TPI 907, RDLC036_A1](thumbnails/tpi_0907.png) — Predicted, IoU 0.902144
+- [TPI 908, RDLC036_B1](thumbnails/tpi_0908.png) — Predicted, IoU 0.890973
+- [TPI 909, RDLC036_C1](thumbnails/tpi_0909.png) — Predicted, IoU 0.788573
+- [TPI 910, RDRV018_A1](thumbnails/tpi_0910.png) — Predicted, IoU 0.938884
+- [TPI 911, RDRV018_B1](thumbnails/tpi_0911.png) — Predicted, IoU 0.883527
+- [TPI 912, RDRV019_B2](thumbnails/tpi_0912.png) — Predicted, IoU 0.865040
+- [TPI 913, RDRV019_B1](thumbnails/tpi_0913.png) — Predicted, IoU 0.898132
+- [TPI 914, RDRV019_C1](thumbnails/tpi_0914.png) — Predicted, IoU 0.732906
+- [TPI 915, RDRV019_C2](thumbnails/tpi_0915.png) — Predicted, IoU 0.896653
+- [TPI 916, RDRV033_E1](thumbnails/tpi_0916.png) — Predicted, IoU 0.799175
+- [TPI 917, RDRV055_A2](thumbnails/tpi_0917.png) — Predicted, IoU 0.924527
+- [TPI 918, RDRV055_A1](thumbnails/tpi_0918.png) — Predicted, IoU 0.937691
+- [TPI 919, RDRV055_A3](thumbnails/tpi_0919.png) — Predicted, IoU 0.882047
+- [TPI 920, RDRV055_B1](thumbnails/tpi_0920.png) — Predicted, IoU 0.883077
+- [TPI 921, RDRV055_B2](thumbnails/tpi_0921.png) — Predicted, IoU 0.932997
+- [TPI 922, RDRV055_D1](thumbnails/tpi_0922.png) — Predicted, IoU 0.914728
+- [TPI 923, RDRV055_D2](thumbnails/tpi_0923.png) — Predicted, IoU 0.883282
+- [TPI 924, RDRV055_D3](thumbnails/tpi_0924.png) — Predicted, IoU 0.870917
+- [TPI 925, ](thumbnails/tpi_0925.png) — Predicted, IoU 0.877735
+- [TPI 926, ](thumbnails/tpi_0926.png) — Predicted, IoU 0.799903
+- [TPI 927, ](thumbnails/tpi_0927.png) — Predicted, IoU 0.829426
+- [TPI 928, RDLP017_D1](thumbnails/tpi_0928.png) — Predicted, IoU 0.941297
+- [TPI 929, RDLP017_D2](thumbnails/tpi_0929.png) — Predicted, IoU 0.887605
+- [TPI 930, RDLP017_D3](thumbnails/tpi_0930.png) — Predicted, IoU 0.914391
+- [TPI 931, RDLP035_A7](thumbnails/tpi_0931.png) — Predicted, IoU 0.800592
+- [TPI 932, RDLP035_A6](thumbnails/tpi_0932.png) — Predicted, IoU 0.928784
+- [TPI 933, RDLP035_A5](thumbnails/tpi_0933.png) — Predicted, IoU 0.888660
+- [TPI 934, RDLP035_A4](thumbnails/tpi_0934.png) — Predicted, IoU 0.897390
+- [TPI 935, RDLP035_A3](thumbnails/tpi_0935.png) — Predicted, IoU 0.907264
+- [TPI 936, RDLP035_A2](thumbnails/tpi_0936.png) — Predicted, IoU 0.904256
+- [TPI 937, RDLP035_A1](thumbnails/tpi_0937.png) — Predicted, IoU 0.879856
+- [TPI 938, RDLP036_A1](thumbnails/tpi_0938.png) — Predicted, IoU 0.922122
+- [TPI 939, RDLP038_A1](thumbnails/tpi_0939.png) — Predicted, IoU 0.912441
+- [TPI 940, RDLP038_A2](thumbnails/tpi_0940.png) — Predicted, IoU 0.948375
+- [TPI 941, RET026_A1](thumbnails/tpi_0941.png) — Predicted, IoU 0.904951
+- [TPI 942, RET026_A2](thumbnails/tpi_0942.png) — Predicted, IoU 0.801843
+- [TPI 943, RET026_B3](thumbnails/tpi_0943.png) — Predicted, IoU 0.941811
+- [TPI 944, RET026_B2](thumbnails/tpi_0944.png) — Predicted, IoU 0.904075
+- [TPI 945, RET026_B1](thumbnails/tpi_0945.png) — Predicted, IoU 0.867347
+- [TPI 946, RET039_A1](thumbnails/tpi_0946.png) — Predicted, IoU 0.959197
+- [TPI 947, RET039_B1](thumbnails/tpi_0947.png) — Predicted, IoU 0.899128
+- [TPI 948, RDRV013_B1](thumbnails/tpi_0948.png) — Predicted, IoU 0.509741
