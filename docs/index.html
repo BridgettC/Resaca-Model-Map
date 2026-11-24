@@ -25,14 +25,14 @@ button.primary{background:#087b83;color:white;border-color:#087b83}button.primar
 #status{position:absolute;left:12px;bottom:15px;z-index:500;background:white;border-radius:9px;padding:7px 11px;box-shadow:0 2px 12px #142f3630;max-width:min(580px,calc(100% - 24px));font-size:12px}
 #basemap{background:white;border:1px solid var(--line);padding:8px;border-radius:8px}
 .bubble{font-size:12px;min-width:215px}.bubble h3{margin:0 0 6px;font-size:15px}.bubble dt{font-weight:600}.bubble dd{margin:0 0 4px;overflow-wrap:anywhere}.bubble .note{background:#f4f7f7;border-left:3px solid #0e8189;padding:5px 7px;margin-top:8px;color:#445d65}.bubble a{color:#006b72}
-#mobileMenu{display:none}.footnote{font-size:11px;color:#687c83;padding-top:10px}.demcontrol{padding:12px 11px;margin:6px 0 16px;border:1px solid #c5d9da;background:#f7fbfb;border-radius:10px}.demcontrol label{display:flex;gap:7px;align-items:center}.demcontrol label small{margin-left:auto;color:#6a7e85;font-size:10px}.demcontrol input[type=checkbox]{accent-color:#087b83}.demopacity{display:flex;gap:9px;align-items:center;margin-top:9px;font-size:11px}.demopacity input{flex:1;min-width:50px;accent-color:#087b83}.demopacity output{min-width:33px;text-align:right}.demlegend{display:flex;flex-direction:column;margin-top:6px;gap:2px;font-size:10px;color:#637d83}.demlegend .colorbar{height:9px;border-radius:3px;background:linear-gradient(to right,#16385b,#2d7f96,#6ab5b2,#e5e7cc,#dca55a,#a65d32,#643a21)}
+.stage-actions{display:flex;flex-wrap:wrap;align-items:center;gap:8px;padding:7px 3px 11px;border-bottom:1px solid #e5ecef}.stage-button{background:#087e82;border-radius:7px;text-decoration:none;color:white!important;font-weight:700;padding:7px 10px;display:inline-block;font-size:12px}.stage-button:hover{background:#07676c}.stage-secondary{font-size:11px;color:#087e82}#mobileMenu{display:none}.footnote{font-size:11px;color:#687c83;padding-top:10px}.demcontrol{padding:12px 11px;margin:6px 0 16px;border:1px solid #c5d9da;background:#f7fbfb;border-radius:10px}.demcontrol label{display:flex;gap:7px;align-items:center}.demcontrol label small{margin-left:auto;color:#6a7e85;font-size:10px}.demcontrol input[type=checkbox]{accent-color:#087b83}.demopacity{display:flex;gap:9px;align-items:center;margin-top:9px;font-size:11px}.demopacity input{flex:1;min-width:50px;accent-color:#087b83}.demopacity output{min-width:33px;text-align:right}.demlegend{display:flex;flex-direction:column;margin-top:6px;gap:2px;font-size:10px;color:#637d83}.demlegend .colorbar{height:9px;border-radius:3px;background:linear-gradient(to right,#16385b,#2d7f96,#6ab5b2,#e5e7cc,#dca55a,#a65d32,#643a21)}
 @media(max-width:780px){header{height:65px;padding:8px 12px}header h1{font-size:15px}header p{font-size:11px}#mobileMenu{display:inline-block}#layout{height:calc(100% - 65px);display:block;position:relative}aside{position:absolute;z-index:650;top:0;bottom:0;width:min(340px,95vw);box-shadow:3px 0 10px #142f3625;transition:transform .2s}aside.hidden{transform:translateX(-110%)}main{height:100%}#status{bottom:17px}}
 </style></head>
 <body>
-<header><div class="heading"><button id="mobileMenu" aria-label="Toggle dataset layers">☰ Layers</button><div><h1>Resaca Boundary Research</h1><p>Interactive polygon archive · experimental data, not a definitive accuracy map</p></div></div><a href="268-gallery/" style="margin-left:auto;color:#e6fffb;background:#087e82;padding:9px 12px;border-radius:9px;text-decoration:none;font-weight:700">268 Thumbnail Gallery</a> <a id="repo" href="https://github.com/BridgettC/Resaca-Model-Map" target="_blank" rel="noopener">Project &amp; methods ↗</a></header>
+<header><div class="heading"><button id="mobileMenu" aria-label="Toggle dataset layers">☰ Layers</button><div><h1>Resaca Boundary Research</h1><p>Interactive polygon archive · experimental data, not a definitive accuracy map</p></div></div><a href="all943-gallery/" style="margin-left:auto;color:#e6fffb;background:#087e82;padding:9px 12px;border-radius:9px;text-decoration:none;font-weight:700">Browse all 943 thumbnails</a> <a href="268-gallery/" style="color:#d4e5e5;padding:7px 9px;text-decoration:none;font-size:12px">268 rough-outline gallery</a> <a id="repo" href="https://github.com/BridgettC/Resaca-Model-Map" target="_blank" rel="noopener">Project &amp; methods ↗</a></header>
 <div id="layout"><aside id="sidebar">
 <p class="intro">Compare rough outlines, model-generated predictions, and human-edited boundaries across research stages. The map loads selected layers only.</p>
-<div class="controls"><button class="primary" id="finalOnly">Show final 914</button><button id="none">Clear polygon layers</button></div>
+<div class="controls"><button class="primary" id="finalOnly">Show final 943</button><button id="none">Clear polygon layers</button></div>
 <section class="demcontrol" aria-label="Digital elevation model overlay"><label><input type="checkbox" checked id="showDem"> <strong>Detrended DEM</strong> <small>5 m original, optimized for web display</small></label><div class="demopacity"><span>DEM opacity</span><input type="range" id="demOpacity" min="0" max="100" value="65" aria-label="DEM opacity"><output id="opacityLabel">65%</output></div><div class="demlegend"><span>Low elevation / depression</span><div class="colorbar"></div><span>Higher terrain</span></div></section>
 <label for="search" style="font-weight:700;font-size:13px">Find a layer</label>
 <input id="search" type="search" placeholder="Search: 89, RLHF, rough, final…" aria-label="Search layer names">
@@ -123,7 +123,7 @@ function drawCatalog(arr){
  if(!groups.has(item.group))groups.set(item.group,[]);
  groups.get(item.group).push(item)});
  for(const [group,items] of groups){
-  const details=document.createElement("details");details.className="group";details.open=!!query||group.includes("Final 914")||group.includes("Verified 89");
+  const details=document.createElement("details");details.className="group";details.open=!!query||group.includes("Final 943")||group.includes("Verified 89");
   const summary=document.createElement("summary");const title=document.createElement("span");title.textContent=group;const count=document.createElement("em");count.textContent=items.length+" layers";summary.append(title,count);details.appendChild(summary);
   const div=document.createElement("div");div.className="items";
   for(const item of items){
@@ -139,6 +139,17 @@ function drawCatalog(arr){
    focus.addEventListener("click",function(){show(item,true)});
    e.append(label,focus);div.appendChild(e);
   }
+  // Open the same full 943 gallery filtered to the relevant stage. Some early source polygons are not individually linked to the final 943.
+  const phaseMatch=group.match(/^(0[2-7])/),batchMatch=group.match(/RLHF batch (\d+)/i);
+  const phase=phaseMatch?phaseMatch[1]:'07',stageKey=batchMatch?'04-'+batchMatch[1]:phase;
+  const links=document.createElement('div');links.className='stage-actions';
+  const goto=document.createElement('a');goto.className='stage-button';
+  goto.href='all943-gallery/?stage='+encodeURIComponent(stageKey);
+  goto.textContent='View related thumbnails';
+  goto.title='Open the final TPI prediction comparisons associated with this project stage';
+  links.appendChild(goto);
+  if(phase==='06'){const other=document.createElement('a');other.href='268-gallery/';other.className='stage-secondary';other.textContent='View 268 rough outlines';links.appendChild(other)}
+  div.insertBefore(links,div.firstChild);
   details.appendChild(div);list.appendChild(details);
  }
  if(!groups.size)list.textContent="No layers match your search.";
@@ -148,7 +159,7 @@ async function start(){
   const r=await fetch("layers.json",{cache:"no-cache"});if(!r.ok)throw new Error("Dataset index not available (HTTP "+r.status+")");
   const data=await r.json();currentCatalog=data.layers||[];
   currentCatalog.forEach(function(it){definitions.set(it.id,it)});
-  drawCatalog(currentCatalog);setStatus(currentCatalog.length+" selectable layers. Loading the final 914…");
+  drawCatalog(currentCatalog);setStatus(currentCatalog.length+" selectable layers. Loading the final 943…");
   const final=currentCatalog.find(function(x){return x.kind==="final"});
   if(final)await show(final,true);
  }catch(e){list.textContent="Could not load catalog.";setStatus("Error: "+e.message+" — use a local web server instead of file://");console.error(e)}

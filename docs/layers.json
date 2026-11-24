@@ -3,6 +3,32 @@
   "notice": "Display-only geometries simplified for interactive use; archive GeoJSON is unchanged.",
   "layers": [
     {
+      "id": "07_Final_TPI_943",
+      "name": "Final TPI 943 (latest)",
+      "group": "07 | Final 943",
+      "phase": "07",
+      "kind": "final",
+      "count": 943,
+      "file": "data/07_Final_TPI_943.geojson.gz",
+      "source": "ClassifiedTPI/LatestandGreatest_10262026/TPI_10262026.gdb/TPI_10262026",
+      "color": "#d43746",
+      "caveat": "943 final accepted geometries; includes split and manually added polygons; not itself a model output.",
+      "display_simplified": false
+    },
+    {
+      "id": "07_Associated_Predictions_943",
+      "name": "Associated predictions 943 (mixed provenance)",
+      "group": "07 | Final 943",
+      "phase": "07",
+      "kind": "prediction",
+      "count": 943,
+      "file": "data/07_Associated_Predictions_943.geojson.gz",
+      "source": "TPI943_PredictionCoverage_Audit_20261123/TPI_Predictions.gdb/TPI_Predictions_11242026",
+      "color": "#24262f",
+      "caveat": "Mixed historic, retrospectively replayed and final-as-input diagnostic geometry. See the 943-gallery source labels; 71 diagnostic polygons are not independent validation.",
+      "display_simplified": false
+    },
+    {
       "id": "07_Final_TPI_914",
       "name": "Final TPI 914",
       "group": "07 | Final 914",
