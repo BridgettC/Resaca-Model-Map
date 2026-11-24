@@ -1,269 +1,269 @@
 oid,name,status,fid,rid,match_iou,segmented
-1,rough_001.png,Saved D1/D2 notebook prediction,1,RET001,0.7937169,False
-2,rough_002.png,Saved D1/D2 notebook prediction,2,RET002,0.6066039,False
-3,rough_003.png,Saved D1/D2 notebook prediction,3,RET003,0.6116122,False
-4,rough_004.png,Saved D1/D2 notebook prediction,4,RET004,0.7125958,False
-5,rough_005.png,Saved D1/D2 notebook prediction,5,RET005,0.6645536,False
-6,rough_006.png,Saved D1/D2 notebook prediction,6,RET006,0.7592486,False
-7,rough_007.png,Saved D1/D2 notebook prediction,7,RET007,0.6738915,False
-8,rough_008.png,Saved D1/D2 notebook prediction,8,RET008,0.7832741,False
-9,rough_009.png,Saved D1/D2 notebook prediction,9,RET009,0.5027455,True
-10,rough_010.png,Saved D1/D2 notebook prediction,10,RET014,0.387618,False
-11,rough_011.png,Saved D1/D2 notebook prediction,11,RET018,0.6139665,False
-12,rough_012.png,Saved D1/D2 notebook prediction,12,RET022,0.3485559,True
-13,rough_013.png,Saved D1/D2 notebook prediction,1026,RET024,0.3722929,True
-14,rough_014.png,Saved D1/D2 notebook prediction,14,RET027,0.7390511,True
-15,rough_015.png,Saved D1/D2 notebook prediction,15,RET028,0.7750421,False
-16,rough_016.png,Saved D1/D2 notebook prediction,16,RET029,0.6949695,False
-17,rough_017.png,Saved D1/D2 notebook prediction,17,RET030,0.5584638,False
-18,rough_018.png,Saved D1/D2 notebook prediction,1048,RET040,0.1800415,True
-19,rough_019.png,Saved D1/D2 notebook prediction,19,RET052,0.4429872,True
-20,rough_020.png,Saved D1/D2 notebook prediction,1070,RET053,0.0711529,False
-21,rough_021.png,Saved D1/D2 notebook prediction,,,0,False
-22,rough_022.png,Saved D1/D2 notebook prediction,1071,RET054,6.13e-05,True
-23,rough_023.png,Historic 702 spatial candidate,,,0,False
-24,rough_024.png,Historic 702 spatial candidate,,,0,False
-25,rough_025.png,Historic 702 spatial candidate,,,0,False
-26,rough_026.png,Historic 702 spatial candidate,,,0,False
-27,rough_027.png,Historic 702 spatial candidate,,,0,False
-28,rough_028.png,Historic 702 spatial candidate,,,0,False
-29,rough_029.png,Historic 702 spatial candidate,,,0,False
-30,rough_030.png,Historic 702 spatial candidate,252,RCP001_A1,0.8170542,False
-31,rough_031.png,Historic 702 spatial candidate,,,0,False
-32,rough_032.png,Historic 702 spatial candidate,,,0,False
-33,rough_033.png,Historic 702 spatial candidate,,,0,False
-34,rough_034.png,Historic 702 spatial candidate,,,0,False
-35,rough_035.png,Historic 702 spatial candidate,272,RCP001,0.0034291,False
-36,rough_036.png,Historic 702 spatial candidate,,,0,False
-37,rough_037.png,Historic 702 spatial candidate,,,0,False
-38,rough_038.png,Historic 702 spatial candidate,,,0,False
-39,rough_039.png,Historic 702 spatial candidate,,,0,False
-40,rough_040.png,Historic 702 spatial candidate,,,0,False
-41,rough_041.png,Historic 702 spatial candidate,,,0,False
-42,rough_042.png,Historic 702 spatial candidate,,,0,False
-43,rough_043.png,No saved prediction candidate,,,0,False
-44,rough_044.png,Historic 702 spatial candidate,,,0,False
-45,rough_045.png,Historic 702 spatial candidate,,,0,False
-46,rough_046.png,Historic 702 spatial candidate,,,0,False
-47,rough_047.png,Historic 702 spatial candidate,,,0,False
-48,rough_048.png,Historic 702 spatial candidate,,,0,False
-49,rough_049.png,Historic 702 spatial candidate,,,0,False
-50,rough_050.png,Historic 702 spatial candidate,,,0,False
-51,rough_051.png,Historic 702 spatial candidate,275,RCP004,0.0004113,False
-52,rough_052.png,Historic 702 spatial candidate,,,0,False
-96,rough_096.png,Historic 702 spatial candidate,225,RCP039,0.298175,True
-105,rough_105.png,No saved prediction candidate,259,RCP039_C1,0.774804,False
-112,rough_112.png,Historic 702 spatial candidate,235,RCP044,0.4179602,True
-124,rough_124.png,Historic 702 spatial candidate,,,0,False
-126,rough_126.png,Historic 702 spatial candidate,,,0,False
-134,rough_134.png,Historic 702 spatial candidate,272,RCP001,0.736051,False
-135,rough_135.png,Historic 702 spatial candidate,273,,0.7561934,False
-136,rough_136.png,Historic 702 spatial candidate,186,RCP003,0.7485919,False
-137,rough_137.png,Historic 702 spatial candidate,275,RCP004,0.7701778,False
-138,rough_138.png,Historic 702 spatial candidate,276,RCP005,0.5852591,False
-139,rough_139.png,Historic 702 spatial candidate,252,RCP001_A1,0.8170542,False
-140,rough_140.png,Historic 702 spatial candidate,,,0,False
-141,rough_141.png,Historic 702 spatial candidate,,,0,False
-247,rough_247.png,No saved prediction candidate,413,RDLP056_A3,0.76775,False
-248,rough_248.png,No saved prediction candidate,414,RDLP056_A2,0.8529086,False
-249,rough_249.png,No saved prediction candidate,415,RDLP056_A1,0.7929974,False
-257,rough_257.png,No saved prediction candidate,423,RDLP051_A1,0.7718605,False
-261,rough_261.png,No saved prediction candidate,477,RDRV005_B3,0.8184258,False
-298,rough_298.png,No saved prediction candidate,,R000399,0,False
-362,rough_362.png,No saved prediction candidate,,R000249,0,False
-365,rough_365.png,No saved prediction candidate,,R000261,0,True
-366,rough_366.png,No saved prediction candidate,,R000259,0,False
-367,rough_367.png,No saved prediction candidate,,R000260,0,False
-368,rough_368.png,No saved prediction candidate,,R000245,0,False
-369,rough_369.png,No saved prediction candidate,,R000244,0,False
-370,rough_370.png,No saved prediction candidate,,R000241,0,False
-371,rough_371.png,No saved prediction candidate,,R000238,0,False
-591,rough_591.png,No saved prediction candidate,,R000450,0,False
-623,rough_623.png,No saved prediction candidate,788,RDLC045_B1,0.4810318,False
-647,rough_647.png,No saved prediction candidate,,R000506,0,False
-649,rough_649.png,No saved prediction candidate,,R000508,0,False
-650,rough_650.png,No saved prediction candidate,,R000509,0,False
-651,rough_651.png,No saved prediction candidate,,R000510,0,False
-654,rough_654.png,No saved prediction candidate,,R000513,0,False
-655,rough_655.png,No saved prediction candidate,,R000514,0,False
-669,rough_669.png,No saved prediction candidate,,R000528,0,False
-671,rough_671.png,No saved prediction candidate,,R000530,0,False
-673,rough_673.png,No saved prediction candidate,,R000532,0,False
-674,rough_674.png,No saved prediction candidate,,R000533,0,False
-675,rough_675.png,No saved prediction candidate,,R000534,0,False
-679,rough_679.png,No saved prediction candidate,,R000538,0,False
-680,rough_680.png,No saved prediction candidate,,R000539,0,False
-684,rough_684.png,No saved prediction candidate,,R000543,0,False
-685,rough_685.png,No saved prediction candidate,,R000544,0,False
-696,rough_696.png,No saved prediction candidate,,R000555,0,False
-697,rough_697.png,No saved prediction candidate,,R000556,0,False
-698,rough_698.png,No saved prediction candidate,,R000557,0,False
-702,rough_702.png,No saved prediction candidate,,R000561,0,False
-706,rough_706.png,No saved prediction candidate,,R000565,0,False
-713,rough_713.png,No saved prediction candidate,,R000572,0,False
-714,rough_714.png,No saved prediction candidate,,R000573,0,False
-715,rough_715.png,Historic 702 spatial candidate,50,RDLF001,0.7806372,False
-716,rough_716.png,Historic 702 spatial candidate,51,RDLF002,0.6932733,False
-717,rough_717.png,Historic 702 spatial candidate,52,RDLF003,0.8120576,True
-718,rough_718.png,Historic 702 spatial candidate,53,RDLF004,0.8459098,False
-719,rough_719.png,Historic 702 spatial candidate,54,RDLF005,0.772908,False
-720,rough_720.png,Historic 702 spatial candidate,55,RDLF006,0.6388343,False
-721,rough_721.png,Historic 702 spatial candidate,56,RDLF007,0.6646891,False
-722,rough_722.png,Historic 702 spatial candidate,57,RDLF007_A1,0.6353482,False
-723,rough_723.png,Historic 702 spatial candidate,58,RDLF008,0.8114878,False
-724,rough_724.png,Historic 702 spatial candidate,59,RDLF009,0.8015814,False
-725,rough_725.png,Historic 702 spatial candidate,60,RDLF007_B1,0.9010605,False
-726,rough_726.png,Historic 702 spatial candidate,61,RDLF007_B4,0.738093,False
-727,rough_727.png,Historic 702 spatial candidate,62,RDLF007_B2,0.8896703,False
-728,rough_728.png,Historic 702 spatial candidate,63,RDLF007_B3,0.7692403,False
-729,rough_729.png,Historic 702 spatial candidate,64,RDLF010,0.5220243,False
-730,rough_730.png,Historic 702 spatial candidate,65,RDLF011,0.6018509,False
-731,rough_731.png,No saved prediction candidate,66,RDLF012,0.4223391,False
-732,rough_732.png,Historic 702 spatial candidate,67,RDLF013,0.4507241,False
-733,rough_733.png,Historic 702 spatial candidate,68,RDLF014,0.5865964,False
-734,rough_734.png,Historic 702 spatial candidate,69,RDLF017_B1,0.8121976,False
-735,rough_735.png,Historic 702 spatial candidate,70,RDLF017_B2,0.5607897,False
-736,rough_736.png,Historic 702 spatial candidate,71,RDLF017_A1,0.6857908,False
-737,rough_737.png,No saved prediction candidate,72,RDLF015,0.4045413,False
-738,rough_738.png,No saved prediction candidate,73,RDLF016,0.3720376,False
-739,rough_739.png,Historic 702 spatial candidate,74,RDLF017,0.6665004,False
-740,rough_740.png,Historic 702 spatial candidate,75,RDLF018,0.6084724,False
-741,rough_741.png,Historic 702 spatial candidate,76,RDLF019,0.7726161,False
-742,rough_742.png,Historic 702 spatial candidate,77,RDLF020,0.8283804,False
-743,rough_743.png,Historic 702 spatial candidate,78,RDLF021,0.4528037,False
-744,rough_744.png,Historic 702 spatial candidate,79,RDLF022,0.7854007,False
-745,rough_745.png,Historic 702 spatial candidate,80,RDLF023,0.6342157,False
-746,rough_746.png,Historic 702 spatial candidate,81,RDLF024,0.7733951,False
-747,rough_747.png,Historic 702 spatial candidate,82,RDLF025,0.6973937,False
-748,rough_748.png,Historic 702 spatial candidate,83,RDLF026,0.7914183,True
-749,rough_749.png,No saved prediction candidate,84,RDLF027,0.305175,False
-750,rough_750.png,Historic 702 spatial candidate,85,RDLF028,0.5131214,False
-751,rough_751.png,Historic 702 spatial candidate,86,RDLF029,0.5325018,False
-752,rough_752.png,Historic 702 spatial candidate,87,RDLF030,0.6386415,False
-753,rough_753.png,Historic 702 spatial candidate,88,RDLF031,0.724482,False
-754,rough_754.png,Historic 702 spatial candidate,89,RDLF032,0.702051,False
-755,rough_755.png,Historic 702 spatial candidate,90,RDLF033,0.6039281,False
-756,rough_756.png,Historic 702 spatial candidate,91,RDLF034,0.6566287,False
-757,rough_757.png,Historic 702 spatial candidate,92,RDLF035,0.5013654,False
-758,rough_758.png,Historic 702 spatial candidate,93,RDLF035_A1,0.7648626,False
-759,rough_759.png,Historic 702 spatial candidate,94,RDLF041_A1,0.6996907,False
-760,rough_760.png,Historic 702 spatial candidate,95,RDLF036,0.51921,False
-761,rough_761.png,Historic 702 spatial candidate,96,RDLF036_A1,0.7593067,False
-762,rough_762.png,Historic 702 spatial candidate,97,RDLF037,0.5214939,False
-763,rough_763.png,Historic 702 spatial candidate,98,RDLF038,0.6045428,False
-764,rough_764.png,Historic 702 spatial candidate,99,RDLF039,0.5734058,False
-765,rough_765.png,Historic 702 spatial candidate,100,RDLF040,0.6432601,False
-766,rough_766.png,Historic 702 spatial candidate,101,RDLF041,0.8286245,False
-767,rough_767.png,Historic 702 spatial candidate,102,RDLF042,0.4747522,True
-768,rough_768.png,Historic 702 spatial candidate,103,RDLF043_B1,0.573811,False
-769,rough_769.png,Historic 702 spatial candidate,104,RDLF043_B2,0.7454112,False
-770,rough_770.png,Historic 702 spatial candidate,105,RDLF043_A1,0.5688938,False
-771,rough_771.png,Historic 702 spatial candidate,106,RDLF037_A1,0.7657163,False
-772,rough_772.png,Historic 702 spatial candidate,107,RDLF038_B1,0.8691111,False
-773,rough_773.png,Historic 702 spatial candidate,108,RDLF038_A1,0.4352133,False
-774,rough_774.png,Historic 702 spatial candidate,109,RDLF038_C1,0.7737223,False
-775,rough_775.png,Historic 702 spatial candidate,110,RDLF037_B1,0.7173648,False
-776,rough_776.png,Historic 702 spatial candidate,111,RDLF034_A1,0.8717378,False
-777,rough_777.png,Historic 702 spatial candidate,117,RDLF043_C1,0.6178616,False
-778,rough_778.png,No saved prediction candidate,118,RDLF043,0.3766903,False
-779,rough_779.png,No saved prediction candidate,119,RDLF044,0.3891962,False
-780,rough_780.png,Historic 702 spatial candidate,120,RDLF046,0.2913968,False
-781,rough_781.png,Historic 702 spatial candidate,121,RDLF045,0.3837875,False
-782,rough_782.png,Historic 702 spatial candidate,122,RDLF045_B1,0.6024891,False
-783,rough_783.png,Historic 702 spatial candidate,123,RDLF045_A1,0.6534279,False
-784,rough_784.png,Historic 702 spatial candidate,124,RDLF045_B2,0.6720247,False
-785,rough_785.png,Historic 702 spatial candidate,125,RDLF047,0.3752858,False
-786,rough_786.png,Historic 702 spatial candidate,126,RDLF048,0.357426,False
-787,rough_787.png,Historic 702 spatial candidate,127,RDLF049,0.4600241,False
-788,rough_788.png,Historic 702 spatial candidate,128,RDLF050,0.5112708,False
-789,rough_789.png,Historic 702 spatial candidate,129,RDLF051,0.4256783,True
-790,rough_790.png,Historic 702 spatial candidate,130,RDLF051_C1,0.7571046,False
-791,rough_791.png,Historic 702 spatial candidate,131,RDLF051_D1,0.7875496,False
-792,rough_792.png,Historic 702 spatial candidate,132,RDLF051_E1,0.6867937,False
-793,rough_793.png,Historic 702 spatial candidate,133,RDLF051_F1,0.8542257,False
-794,rough_794.png,Historic 702 spatial candidate,134,RDLF051_G1,0.794265,False
-795,rough_795.png,Historic 702 spatial candidate,135,RDLF051_I1,0.6557165,False
-796,rough_796.png,Historic 702 spatial candidate,136,RDLF051_J1,0.8192536,False
-797,rough_797.png,Historic 702 spatial candidate,137,RDLF051_H1,0.5278857,False
-798,rough_798.png,Historic 702 spatial candidate,138,RDLF051_H2,0.6163111,True
-799,rough_799.png,Historic 702 spatial candidate,139,RDLF053_A1,0.4794609,False
-800,rough_800.png,Historic 702 spatial candidate,140,RDLF053_B1,0.8841923,False
-801,rough_801.png,Historic 702 spatial candidate,141,RDLF052,0.7487521,False
-802,rough_802.png,Historic 702 spatial candidate,142,RDLF053,0.498811,True
-803,rough_803.png,Historic 702 spatial candidate,143,RDLF053_C1,0.7650882,False
-804,rough_804.png,Historic 702 spatial candidate,144,RDLF054,0.6269948,False
-805,rough_805.png,Historic 702 spatial candidate,145,RDLF055,0.5200868,False
-806,rough_806.png,Historic 702 spatial candidate,146,RDLF056,0.5133157,False
-807,rough_807.png,Historic 702 spatial candidate,147,RDLF057,0.5260534,False
-808,rough_808.png,Historic 702 spatial candidate,148,RDLF058,0.4973458,False
-809,rough_809.png,Historic 702 spatial candidate,149,RDLF059,0.4197087,True
-810,rough_810.png,Historic 702 spatial candidate,150,RDLF059_B1,0.6508736,False
-811,rough_811.png,Historic 702 spatial candidate,151,RDLF060_B2,0.8378412,False
-812,rough_812.png,Historic 702 spatial candidate,152,RDLF060_A1,0.7146973,False
-813,rough_813.png,Historic 702 spatial candidate,153,RDLF060_B1,0.8721139,False
-814,rough_814.png,Historic 702 spatial candidate,154,RDLF059_A1,0.9051139,False
-815,rough_815.png,Historic 702 spatial candidate,155,RDLF058_B2,0.7763567,False
-816,rough_816.png,Historic 702 spatial candidate,156,RDLF058_B1,0.8567196,False
-817,rough_817.png,Historic 702 spatial candidate,157,RDLF058_A1,0.6947079,False
-818,rough_818.png,Historic 702 spatial candidate,158,RDLF060_B3,0.7520891,False
-819,rough_819.png,Historic 702 spatial candidate,159,RDLF060_B4,0.6046114,False
-820,rough_820.png,Historic 702 spatial candidate,160,RDLF060,0.5728137,False
-821,rough_821.png,Historic 702 spatial candidate,161,RDLF061,0.5417947,True
-822,rough_822.png,Historic 702 spatial candidate,162,RDLF062,0.4995457,False
-823,rough_823.png,Historic 702 spatial candidate,163,RDLF063,0.5140127,False
-824,rough_824.png,Historic 702 spatial candidate,164,RDLF064,0.7123967,False
-825,rough_825.png,Historic 702 spatial candidate,165,RDLF065,0.7686763,False
-826,rough_826.png,Historic 702 spatial candidate,166,RDLF066,0.758315,False
-827,rough_827.png,Historic 702 spatial candidate,167,RDLF,0.8372245,False
-828,rough_828.png,Historic 702 spatial candidate,168,RDLF,0.7523787,False
-829,rough_829.png,Historic 702 spatial candidate,169,RDLF,0.7872419,False
-830,rough_830.png,Historic 702 spatial candidate,170,RDLF,0.6700277,False
-831,rough_831.png,Historic 702 spatial candidate,171,RDLF,0.7412579,False
-832,rough_832.png,Historic 702 spatial candidate,172,RDLF,0.8219144,False
-833,rough_833.png,Historic 702 spatial candidate,173,RDLF,0.7368113,False
-834,rough_834.png,Historic 702 spatial candidate,174,RDLF,0.7643477,False
-835,rough_835.png,Historic 702 spatial candidate,175,RDLF,0.7598194,True
-836,rough_836.png,Historic 702 spatial candidate,176,RDLF,0.7361889,False
-837,rough_837.png,Historic 702 spatial candidate,177,RDLF,0.6640427,False
-838,rough_838.png,Historic 702 spatial candidate,178,RDLF,0.6397203,False
-839,rough_839.png,Historic 702 spatial candidate,179,RDLF,0.7550475,False
-840,rough_840.png,Historic 702 spatial candidate,180,RDLF,0.7082949,False
-841,rough_841.png,Historic 702 spatial candidate,181,RDLF,0.7902406,False
-842,rough_842.png,Historic 702 spatial candidate,182,RDLF,0.7422812,False
-843,rough_843.png,Historic 702 spatial candidate,183,RDLF,0.759819,False
+1,rough_001.png,702 replay (completed),1,RET001,0.7937169,False
+2,rough_002.png,702 replay (completed),2,RET002,0.6066039,False
+3,rough_003.png,702 replay (completed),3,RET003,0.6116122,False
+4,rough_004.png,702 replay (completed),4,RET004,0.7125958,False
+5,rough_005.png,702 replay (completed),5,RET005,0.6645536,False
+6,rough_006.png,702 replay (completed),6,RET006,0.7592486,False
+7,rough_007.png,702 replay (completed),7,RET007,0.6738915,False
+8,rough_008.png,702 replay (completed),8,RET008,0.7832741,False
+9,rough_009.png,702 replay (completed),9,RET009,0.5027455,True
+10,rough_010.png,702 replay (completed),10,RET014,0.387618,False
+11,rough_011.png,702 replay (completed),11,RET018,0.6139665,False
+12,rough_012.png,702 replay (completed),12,RET022,0.3485559,True
+13,rough_013.png,702 replay (completed),1026,RET024,0.3722929,True
+14,rough_014.png,702 replay (completed),14,RET027,0.7390511,True
+15,rough_015.png,702 replay (completed),15,RET028,0.7750421,False
+16,rough_016.png,702 replay (completed),16,RET029,0.6949695,False
+17,rough_017.png,702 replay (completed),17,RET030,0.5584638,False
+18,rough_018.png,702 replay (completed),1048,RET040,0.1800415,True
+19,rough_019.png,702 replay (completed),19,RET052,0.4429872,True
+20,rough_020.png,702 replay (completed),1070,RET053,0.0711529,False
+21,rough_021.png,702 replay (completed),,,0,False
+22,rough_022.png,702 replay (completed),1071,RET054,6.13e-05,True
+23,rough_023.png,702 replay (completed),,,0,False
+24,rough_024.png,702 replay (completed),,,0,False
+25,rough_025.png,702 replay (completed),,,0,False
+26,rough_026.png,702 replay (completed),,,0,False
+27,rough_027.png,702 replay (completed),,,0,False
+28,rough_028.png,702 replay (completed),,,0,False
+29,rough_029.png,702 replay (completed),,,0,False
+30,rough_030.png,702 replay (completed),252,RCP001_A1,0.8170542,False
+31,rough_031.png,702 replay (completed),,,0,False
+32,rough_032.png,702 replay (completed),,,0,False
+33,rough_033.png,702 replay (completed),,,0,False
+34,rough_034.png,702 replay (completed),,,0,False
+35,rough_035.png,702 replay (completed),272,RCP001,0.0034291,False
+36,rough_036.png,702 replay (completed),,,0,False
+37,rough_037.png,702 replay (completed),,,0,False
+38,rough_038.png,702 replay (completed),,,0,False
+39,rough_039.png,702 replay (completed),,,0,False
+40,rough_040.png,702 replay (completed),,,0,False
+41,rough_041.png,702 replay (completed),,,0,False
+42,rough_042.png,702 replay (completed),,,0,False
+43,rough_043.png,702 replay (completed),,,0,False
+44,rough_044.png,702 replay (completed),,,0,False
+45,rough_045.png,702 replay (completed),,,0,False
+46,rough_046.png,702 replay (completed),,,0,False
+47,rough_047.png,702 replay (completed),,,0,False
+48,rough_048.png,702 replay (completed),,,0,False
+49,rough_049.png,702 replay (completed),,,0,False
+50,rough_050.png,702 replay (completed),,,0,False
+51,rough_051.png,702 replay (completed),275,RCP004,0.0004113,False
+52,rough_052.png,702 replay (completed),,,0,False
+96,rough_096.png,702 replay (completed),225,RCP039,0.298175,True
+105,rough_105.png,702 replay (completed),259,RCP039_C1,0.774804,False
+112,rough_112.png,702 replay (completed),235,RCP044,0.4179602,True
+124,rough_124.png,702 replay (completed),,,0,False
+126,rough_126.png,702 replay (completed),,,0,False
+134,rough_134.png,702 replay (completed),272,RCP001,0.736051,False
+135,rough_135.png,702 replay (completed),273,,0.7561934,False
+136,rough_136.png,702 replay (completed),186,RCP003,0.7485919,False
+137,rough_137.png,702 replay (completed),275,RCP004,0.7701778,False
+138,rough_138.png,702 replay (completed),276,RCP005,0.5852591,False
+139,rough_139.png,702 replay (completed),252,RCP001_A1,0.8170542,False
+140,rough_140.png,702 replay (completed),,,0,False
+141,rough_141.png,702 replay (completed),,,0,False
+247,rough_247.png,702 replay (completed),413,RDLP056_A3,0.76775,False
+248,rough_248.png,702 replay (completed),414,RDLP056_A2,0.8529086,False
+249,rough_249.png,702 replay (completed),415,RDLP056_A1,0.7929974,False
+257,rough_257.png,702 replay (completed),423,RDLP051_A1,0.7718605,False
+261,rough_261.png,702 replay (completed),477,RDRV005_B3,0.8184258,False
+298,rough_298.png,702 replay (completed),,R000399,0,False
+362,rough_362.png,702 replay (completed),,R000249,0,False
+365,rough_365.png,702 replay (completed),,R000261,0,True
+366,rough_366.png,702 replay (completed),,R000259,0,False
+367,rough_367.png,702 replay (completed),,R000260,0,False
+368,rough_368.png,702 replay (completed),,R000245,0,False
+369,rough_369.png,702 replay (completed),,R000244,0,False
+370,rough_370.png,702 replay (completed),,R000241,0,False
+371,rough_371.png,702 replay (completed),,R000238,0,False
+591,rough_591.png,702 replay (completed),,R000450,0,False
+623,rough_623.png,702 replay (completed),788,RDLC045_B1,0.4810318,False
+647,rough_647.png,702 replay (completed),,R000506,0,False
+649,rough_649.png,702 replay (completed),,R000508,0,False
+650,rough_650.png,702 replay (completed),,R000509,0,False
+651,rough_651.png,702 replay (completed),,R000510,0,False
+654,rough_654.png,702 replay (completed),,R000513,0,False
+655,rough_655.png,702 replay (completed),,R000514,0,False
+669,rough_669.png,702 replay (completed),,R000528,0,False
+671,rough_671.png,702 replay (completed),,R000530,0,False
+673,rough_673.png,702 replay (completed),,R000532,0,False
+674,rough_674.png,702 replay (completed),,R000533,0,False
+675,rough_675.png,702 replay (completed),,R000534,0,False
+679,rough_679.png,702 replay (completed),,R000538,0,False
+680,rough_680.png,702 replay (completed),,R000539,0,False
+684,rough_684.png,702 replay (completed),,R000543,0,False
+685,rough_685.png,702 replay (completed),,R000544,0,False
+696,rough_696.png,702 replay (completed),,R000555,0,False
+697,rough_697.png,702 replay (completed),,R000556,0,False
+698,rough_698.png,702 replay (completed),,R000557,0,False
+702,rough_702.png,702 replay (completed),,R000561,0,False
+706,rough_706.png,702 replay (completed),,R000565,0,False
+713,rough_713.png,702 replay (completed),,R000572,0,False
+714,rough_714.png,702 replay (completed),,R000573,0,False
+715,rough_715.png,702 replay (completed),50,RDLF001,0.7806372,False
+716,rough_716.png,702 replay (completed),51,RDLF002,0.6932733,False
+717,rough_717.png,702 replay (completed),52,RDLF003,0.8120576,True
+718,rough_718.png,702 replay (completed),53,RDLF004,0.8459098,False
+719,rough_719.png,702 replay (completed),54,RDLF005,0.772908,False
+720,rough_720.png,702 replay (completed),55,RDLF006,0.6388343,False
+721,rough_721.png,702 replay (completed),56,RDLF007,0.6646891,False
+722,rough_722.png,702 replay (completed),57,RDLF007_A1,0.6353482,False
+723,rough_723.png,702 replay (completed),58,RDLF008,0.8114878,False
+724,rough_724.png,702 replay (completed),59,RDLF009,0.8015814,False
+725,rough_725.png,702 replay (completed),60,RDLF007_B1,0.9010605,False
+726,rough_726.png,702 replay (completed),61,RDLF007_B4,0.738093,False
+727,rough_727.png,702 replay (completed),62,RDLF007_B2,0.8896703,False
+728,rough_728.png,702 replay (completed),63,RDLF007_B3,0.7692403,False
+729,rough_729.png,702 replay (completed),64,RDLF010,0.5220243,False
+730,rough_730.png,702 replay (completed),65,RDLF011,0.6018509,False
+731,rough_731.png,702 replay (completed),66,RDLF012,0.4223391,False
+732,rough_732.png,702 replay (completed),67,RDLF013,0.4507241,False
+733,rough_733.png,702 replay (completed),68,RDLF014,0.5865964,False
+734,rough_734.png,702 replay (completed),69,RDLF017_B1,0.8121976,False
+735,rough_735.png,702 replay (completed),70,RDLF017_B2,0.5607897,False
+736,rough_736.png,702 replay (completed),71,RDLF017_A1,0.6857908,False
+737,rough_737.png,702 replay (completed),72,RDLF015,0.4045413,False
+738,rough_738.png,702 replay (completed),73,RDLF016,0.3720376,False
+739,rough_739.png,702 replay (completed),74,RDLF017,0.6665004,False
+740,rough_740.png,702 replay (completed),75,RDLF018,0.6084724,False
+741,rough_741.png,702 replay (completed),76,RDLF019,0.7726161,False
+742,rough_742.png,702 replay (completed),77,RDLF020,0.8283804,False
+743,rough_743.png,702 replay (completed),78,RDLF021,0.4528037,False
+744,rough_744.png,702 replay (completed),79,RDLF022,0.7854007,False
+745,rough_745.png,702 replay (completed),80,RDLF023,0.6342157,False
+746,rough_746.png,702 replay (completed),81,RDLF024,0.7733951,False
+747,rough_747.png,702 replay (completed),82,RDLF025,0.6973937,False
+748,rough_748.png,702 replay (completed),83,RDLF026,0.7914183,True
+749,rough_749.png,702 replay (completed),84,RDLF027,0.305175,False
+750,rough_750.png,702 replay (completed),85,RDLF028,0.5131214,False
+751,rough_751.png,702 replay (completed),86,RDLF029,0.5325018,False
+752,rough_752.png,702 replay (completed),87,RDLF030,0.6386415,False
+753,rough_753.png,702 replay (completed),88,RDLF031,0.724482,False
+754,rough_754.png,702 replay (completed),89,RDLF032,0.702051,False
+755,rough_755.png,702 replay (completed),90,RDLF033,0.6039281,False
+756,rough_756.png,702 replay (completed),91,RDLF034,0.6566287,False
+757,rough_757.png,702 replay (completed),92,RDLF035,0.5013654,False
+758,rough_758.png,702 replay (completed),93,RDLF035_A1,0.7648626,False
+759,rough_759.png,702 replay (completed),94,RDLF041_A1,0.6996907,False
+760,rough_760.png,702 replay (completed),95,RDLF036,0.51921,False
+761,rough_761.png,702 replay (completed),96,RDLF036_A1,0.7593067,False
+762,rough_762.png,702 replay (completed),97,RDLF037,0.5214939,False
+763,rough_763.png,702 replay (completed),98,RDLF038,0.6045428,False
+764,rough_764.png,702 replay (completed),99,RDLF039,0.5734058,False
+765,rough_765.png,702 replay (completed),100,RDLF040,0.6432601,False
+766,rough_766.png,702 replay (completed),101,RDLF041,0.8286245,False
+767,rough_767.png,702 replay (completed),102,RDLF042,0.4747522,True
+768,rough_768.png,702 replay (completed),103,RDLF043_B1,0.573811,False
+769,rough_769.png,702 replay (completed),104,RDLF043_B2,0.7454112,False
+770,rough_770.png,702 replay (completed),105,RDLF043_A1,0.5688938,False
+771,rough_771.png,702 replay (completed),106,RDLF037_A1,0.7657163,False
+772,rough_772.png,702 replay (completed),107,RDLF038_B1,0.8691111,False
+773,rough_773.png,702 replay (completed),108,RDLF038_A1,0.4352133,False
+774,rough_774.png,702 replay (completed),109,RDLF038_C1,0.7737223,False
+775,rough_775.png,702 replay (completed),110,RDLF037_B1,0.7173648,False
+776,rough_776.png,702 replay (completed),111,RDLF034_A1,0.8717378,False
+777,rough_777.png,702 replay (completed),117,RDLF043_C1,0.6178616,False
+778,rough_778.png,702 replay (completed),118,RDLF043,0.3766903,False
+779,rough_779.png,702 replay (completed),119,RDLF044,0.3891962,False
+780,rough_780.png,702 replay (completed),120,RDLF046,0.2913968,False
+781,rough_781.png,702 replay (completed),121,RDLF045,0.3837875,False
+782,rough_782.png,702 replay (completed),122,RDLF045_B1,0.6024891,False
+783,rough_783.png,702 replay (completed),123,RDLF045_A1,0.6534279,False
+784,rough_784.png,702 replay (completed),124,RDLF045_B2,0.6720247,False
+785,rough_785.png,702 replay (completed),125,RDLF047,0.3752858,False
+786,rough_786.png,702 replay (completed),126,RDLF048,0.357426,False
+787,rough_787.png,702 replay (completed),127,RDLF049,0.4600241,False
+788,rough_788.png,702 replay (completed),128,RDLF050,0.5112708,False
+789,rough_789.png,702 replay (completed),129,RDLF051,0.4256783,True
+790,rough_790.png,702 replay (completed),130,RDLF051_C1,0.7571046,False
+791,rough_791.png,702 replay (completed),131,RDLF051_D1,0.7875496,False
+792,rough_792.png,702 replay (completed),132,RDLF051_E1,0.6867937,False
+793,rough_793.png,702 replay (completed),133,RDLF051_F1,0.8542257,False
+794,rough_794.png,702 replay (completed),134,RDLF051_G1,0.794265,False
+795,rough_795.png,702 replay (completed),135,RDLF051_I1,0.6557165,False
+796,rough_796.png,702 replay (completed),136,RDLF051_J1,0.8192536,False
+797,rough_797.png,702 replay (completed),137,RDLF051_H1,0.5278857,False
+798,rough_798.png,702 replay (completed),138,RDLF051_H2,0.6163111,True
+799,rough_799.png,702 replay (completed),139,RDLF053_A1,0.4794609,False
+800,rough_800.png,702 replay (completed),140,RDLF053_B1,0.8841923,False
+801,rough_801.png,702 replay (completed),141,RDLF052,0.7487521,False
+802,rough_802.png,702 replay (completed),142,RDLF053,0.498811,True
+803,rough_803.png,702 replay (completed),143,RDLF053_C1,0.7650882,False
+804,rough_804.png,702 replay (completed),144,RDLF054,0.6269948,False
+805,rough_805.png,702 replay (completed),145,RDLF055,0.5200868,False
+806,rough_806.png,702 replay (completed),146,RDLF056,0.5133157,False
+807,rough_807.png,702 replay (completed),147,RDLF057,0.5260534,False
+808,rough_808.png,702 replay (completed),148,RDLF058,0.4973458,False
+809,rough_809.png,702 replay (completed),149,RDLF059,0.4197087,True
+810,rough_810.png,702 replay (completed),150,RDLF059_B1,0.6508736,False
+811,rough_811.png,702 replay (completed),151,RDLF060_B2,0.8378412,False
+812,rough_812.png,702 replay (completed),152,RDLF060_A1,0.7146973,False
+813,rough_813.png,702 replay (completed),153,RDLF060_B1,0.8721139,False
+814,rough_814.png,702 replay (completed),154,RDLF059_A1,0.9051139,False
+815,rough_815.png,702 replay (completed),155,RDLF058_B2,0.7763567,False
+816,rough_816.png,702 replay (completed),156,RDLF058_B1,0.8567196,False
+817,rough_817.png,702 replay (completed),157,RDLF058_A1,0.6947079,False
+818,rough_818.png,702 replay (completed),158,RDLF060_B3,0.7520891,False
+819,rough_819.png,702 replay (completed),159,RDLF060_B4,0.6046114,False
+820,rough_820.png,702 replay (completed),160,RDLF060,0.5728137,False
+821,rough_821.png,702 replay (completed),161,RDLF061,0.5417947,True
+822,rough_822.png,702 replay (completed),162,RDLF062,0.4995457,False
+823,rough_823.png,702 replay (completed),163,RDLF063,0.5140127,False
+824,rough_824.png,702 replay (completed),164,RDLF064,0.7123967,False
+825,rough_825.png,702 replay (completed),165,RDLF065,0.7686763,False
+826,rough_826.png,702 replay (completed),166,RDLF066,0.758315,False
+827,rough_827.png,702 replay (completed),167,RDLF,0.8372245,False
+828,rough_828.png,702 replay (completed),168,RDLF,0.7523787,False
+829,rough_829.png,702 replay (completed),169,RDLF,0.7872419,False
+830,rough_830.png,702 replay (completed),170,RDLF,0.6700277,False
+831,rough_831.png,702 replay (completed),171,RDLF,0.7412579,False
+832,rough_832.png,702 replay (completed),172,RDLF,0.8219144,False
+833,rough_833.png,702 replay (completed),173,RDLF,0.7368113,False
+834,rough_834.png,702 replay (completed),174,RDLF,0.7643477,False
+835,rough_835.png,702 replay (completed),175,RDLF,0.7598194,True
+836,rough_836.png,702 replay (completed),176,RDLF,0.7361889,False
+837,rough_837.png,702 replay (completed),177,RDLF,0.6640427,False
+838,rough_838.png,702 replay (completed),178,RDLF,0.6397203,False
+839,rough_839.png,702 replay (completed),179,RDLF,0.7550475,False
+840,rough_840.png,702 replay (completed),180,RDLF,0.7082949,False
+841,rough_841.png,702 replay (completed),181,RDLF,0.7902406,False
+842,rough_842.png,702 replay (completed),182,RDLF,0.7422812,False
+843,rough_843.png,702 replay (completed),183,RDLF,0.759819,False
 844,rough_844.png,No saved prediction candidate,,,0,False
-845,rough_845.png,No saved prediction candidate,255,RCP023_B1,0.694487,False
-846,rough_846.png,No saved prediction candidate,256,RCP023_A1,0.6698299,False
-847,rough_847.png,No saved prediction candidate,260,RCP039_G1,0.7058713,False
-848,rough_848.png,No saved prediction candidate,262,RCP039_E1,0.6675607,False
-849,rough_849.png,No saved prediction candidate,261,RCP039_F1,0.7280738,False
-850,rough_850.png,No saved prediction candidate,270,RCP039_B1,0.6434198,False
-851,rough_851.png,No saved prediction candidate,254,RCP021_A1,0.678256,False
-852,rough_852.png,No saved prediction candidate,269,RCP039_A1,0.7305009,False
-853,rough_853.png,No saved prediction candidate,23,RDLPI001_A1,0.8324734,False
-854,rough_854.png,No saved prediction candidate,24,RDLPI002_B1,0.8851013,False
-855,rough_855.png,No saved prediction candidate,25,RDLPI002_A1,0.8539109,False
-856,rough_856.png,No saved prediction candidate,26,RDLPI001,0.7822339,False
-857,rough_857.png,No saved prediction candidate,27,RDLPI002_C1,0.7007164,False
-858,rough_858.png,No saved prediction candidate,28,RDLPI002,0.6292393,False
-859,rough_859.png,No saved prediction candidate,29,RDLPI004_A1,0.7794814,False
-860,rough_860.png,No saved prediction candidate,30,RDLPI004,0.7049961,False
-861,rough_861.png,No saved prediction candidate,969,RDLPI007,0.3503083,False
-862,rough_862.png,No saved prediction candidate,32,RDLPI010,0.4885151,False
-863,rough_863.png,No saved prediction candidate,33,RDLPI016,0.3180469,False
-864,rough_864.png,No saved prediction candidate,34,RDLPI017,0.8246954,False
-865,rough_865.png,No saved prediction candidate,35,RDLPI026,0.1756322,True
-866,rough_866.png,No saved prediction candidate,36,RDLPI018_A1,0.838157,False
-867,rough_867.png,No saved prediction candidate,37,RDLPI016_A1,0.8854608,False
-868,rough_868.png,No saved prediction candidate,38,RDLPI027,0.6619634,False
-869,rough_869.png,No saved prediction candidate,39,RDLPI028,0.680841,False
-870,rough_870.png,No saved prediction candidate,40,RDLPI030,0.2157568,True
-871,rough_871.png,No saved prediction candidate,41,RDLPI030_A1,0.8555965,False
-872,rough_872.png,No saved prediction candidate,42,RDLPI024_A1,0.9270888,False
-873,rough_873.png,No saved prediction candidate,43,RDLPI023_B2,0.8575843,False
-874,rough_874.png,No saved prediction candidate,44,RDLPI021_B1,0.8147753,False
-875,rough_875.png,No saved prediction candidate,45,RDLPI021_A1,0.8811333,False
-876,rough_876.png,No saved prediction candidate,46,RDLPI023_B1,0.9050411,False
-877,rough_877.png,No saved prediction candidate,47,RDLPI023_A1,0.8504698,False
-878,rough_878.png,No saved prediction candidate,48,RDLPI009_B1,0.8128394,False
-879,rough_879.png,No saved prediction candidate,49,RDLPI009_A1,0.8727872,False
+845,rough_845.png,702 replay (completed),255,RCP023_B1,0.694487,False
+846,rough_846.png,702 replay (completed),256,RCP023_A1,0.6698299,False
+847,rough_847.png,702 replay (completed),260,RCP039_G1,0.7058713,False
+848,rough_848.png,702 replay (completed),262,RCP039_E1,0.6675607,False
+849,rough_849.png,702 replay (completed),261,RCP039_F1,0.7280738,False
+850,rough_850.png,702 replay (completed),270,RCP039_B1,0.6434198,False
+851,rough_851.png,702 replay (completed),254,RCP021_A1,0.678256,False
+852,rough_852.png,702 replay (completed),269,RCP039_A1,0.7305009,False
+853,rough_853.png,702 replay (completed),23,RDLPI001_A1,0.8324734,False
+854,rough_854.png,702 replay (completed),24,RDLPI002_B1,0.8851013,False
+855,rough_855.png,702 replay (completed),25,RDLPI002_A1,0.8539109,False
+856,rough_856.png,702 replay (completed),26,RDLPI001,0.7822339,False
+857,rough_857.png,702 replay (completed),27,RDLPI002_C1,0.7007164,False
+858,rough_858.png,702 replay (completed),28,RDLPI002,0.6292393,False
+859,rough_859.png,702 replay (completed),29,RDLPI004_A1,0.7794814,False
+860,rough_860.png,702 replay (completed),30,RDLPI004,0.7049961,False
+861,rough_861.png,702 replay (completed),969,RDLPI007,0.3503083,False
+862,rough_862.png,702 replay (completed),32,RDLPI010,0.4885151,False
+863,rough_863.png,702 replay (completed),33,RDLPI016,0.3180469,False
+864,rough_864.png,702 replay (completed),34,RDLPI017,0.8246954,False
+865,rough_865.png,702 replay (completed),35,RDLPI026,0.1756322,True
+866,rough_866.png,702 replay (completed),36,RDLPI018_A1,0.838157,False
+867,rough_867.png,702 replay (completed),37,RDLPI016_A1,0.8854608,False
+868,rough_868.png,702 replay (completed),38,RDLPI027,0.6619634,False
+869,rough_869.png,702 replay (completed),39,RDLPI028,0.680841,False
+870,rough_870.png,702 replay (completed),40,RDLPI030,0.2157568,True
+871,rough_871.png,702 replay (completed),41,RDLPI030_A1,0.8555965,False
+872,rough_872.png,702 replay (completed),42,RDLPI024_A1,0.9270888,False
+873,rough_873.png,702 replay (completed),43,RDLPI023_B2,0.8575843,False
+874,rough_874.png,702 replay (completed),44,RDLPI021_B1,0.8147753,False
+875,rough_875.png,702 replay (completed),45,RDLPI021_A1,0.8811333,False
+876,rough_876.png,702 replay (completed),46,RDLPI023_B1,0.9050411,False
+877,rough_877.png,702 replay (completed),47,RDLPI023_A1,0.8504698,False
+878,rough_878.png,702 replay (completed),48,RDLPI009_B1,0.8128394,False
+879,rough_879.png,702 replay (completed),49,RDLPI009_A1,0.8727872,False
