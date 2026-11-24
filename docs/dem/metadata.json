@@ -21,10 +21,41 @@
     -0.5,
     0.5
   ],
-  "palette": "low = blue/teal; high = orange/brown",
+  "palette": "Blue depressions -> muted teal -> beige at 0 m -> salmon/red positive terrain and levees",
   "pixels_with_data": 4039171,
   "overview_source": "resampled bilinear from original 5 m DEM",
   "scientific_use": "display only; do not extract quantitative heights from colored image",
   "public_release_note": "PNG represents coarse/resampled public display DEM, not unmodified raster",
-  "sha256": "87f9ca63dec48441ba7245f870b395e59a0961e372ec03eacd1096522135ab30"
+  "sha256": "8df08a815db986e9695b2b6f3e9f0fcf7b7e24b3af2c3c5217e32ec1143c5f40",
+  "palette_stops": [
+    {
+      "elevation_m": -0.5,
+      "color": "#174e83"
+    },
+    {
+      "elevation_m": -0.25,
+      "color": "#70a4bb"
+    },
+    {
+      "elevation_m": -0.03,
+      "color": "#dfdbc7"
+    },
+    {
+      "elevation_m": 0.0,
+      "color": "#eee3c8"
+    },
+    {
+      "elevation_m": 0.17,
+      "color": "#e9ae8a"
+    },
+    {
+      "elevation_m": 0.34,
+      "color": "#cf6856"
+    },
+    {
+      "elevation_m": 0.5,
+      "color": "#9c2933"
+    }
+  ],
+  "display_update": "2026-11-24: recolored display PNG using inverted original RGB palette; original LiDAR data unmodified"
 }
