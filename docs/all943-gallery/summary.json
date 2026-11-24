@@ -1,0 +1,13 @@
+{
+  "total": 943,
+  "unique_ids": 943,
+  "image_count": 943,
+  "missing_images": [],
+  "sources": {
+    "RETROSPECTIVE_702_ROUGH_CANDIDATE": 225,
+    "SAVED_OR_RECONSTRUCTED_MASTER_611": 611,
+    "SAVED_PARENT_PREDICTION_SPLIT_OR_AMBIGUOUS": 2,
+    "DIAGNOSTIC_FINAL_AS_INPUT": 71,
+    "RETROSPECTIVE_702_SPLIT_PARENT": 34
+  }
+}
